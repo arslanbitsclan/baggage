@@ -30,7 +30,7 @@
                               data-description="{{ session()->get('order_id') }}"
                               data-amount="{{ session()->get('order_bill') * 100 }}"
                               data-label="Make Payment"
-                              data-image="{{ asset('uploads/website/baggageLogo.jpg') }}"
+                              data-image="{{ asset('uploads/website/baggageLogo.jpeg') }}"
                               data-currency="GBP">
                             </script>
                           </form>

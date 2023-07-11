@@ -6374,8 +6374,9 @@ h6.post-title {
   margin-right: 5px;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  color: white;
 }
-
+.widget-about>.wow{color: white  !important;}
 .mobile-social-icon a img {
   max-width: 20px;
   opacity: 0.7;
@@ -7645,6 +7646,7 @@ span.fi-rs-apps {
   font-size: 14px;
   color: #1a1a1a;
   display: block;
+  color: white;
 }
 
 .footer-list li a:hover {
@@ -7683,6 +7685,7 @@ span.fi-rs-apps {
 
 .footer-mid .widget-title {
   margin: 15px 0 20px 0;
+  color:white;
 }
 
 /*LAYOUT -> SPACING**/
@@ -7701,7 +7704,9 @@ span.fi-rs-apps {
 .section-padding {
   padding: 25px 0;
 }
-
+footer>.section-padding {
+  background-color: #000;
+}
 .ptb-0 {
   padding: 0;
 }

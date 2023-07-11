@@ -70,7 +70,7 @@
                                                                 <tbody class="border-0">
                                                                     <tr class="border-0">
                                                                         <td class="logo logo-width-1 border-0">
-                                                                            <a href="{{ url('/') }}"><img src="{{ asset('uploads/website/baggageLogo.jpg') }}"
+                                                                            <a href="{{ url('/') }}"><img src="{{ asset('uploads/website/baggageLogo.jpeg') }}"
                                                                                 alt="logo" height="30px" width="30px"></a>
                                                                         </td>
                                                                     </tr>

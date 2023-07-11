@@ -16,7 +16,7 @@
     <meta property="og:image" content="">
     <link href="{{ asset('css/iziToast.css') }}" rel="stylesheet">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('uploads/website/baggageLogo.jpg') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('uploads/website/baggageLogo.jpeg') }}">
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -99,7 +99,7 @@
             <div class="container">
                 <div class="header-wrap">
                     <div class="logo logo-width-1">
-                        <a href="{{ url('/') }}"><img src="{{ asset('uploads/website/baggageLogo.jpg') }}"
+                        <a href="{{ url('/') }}"><img src="{{ asset('uploads/website/baggageLogo.jpeg') }}"
                                 alt="logo" height="30px" width="30px"></a>
                     </div>
                     <div class="header-right">
@@ -143,7 +143,7 @@
             <div class="container">
                 <div class="header-wrap header-space-between position-relative">
                     <div class="logo logo-width-1 d-block d-lg-none">
-                        <a href="{{ url('/') }}"><img src="{{ asset('uploads/website/baggageLogo.jpg') }}"
+                        <a href="{{ url('/') }}"><img src="{{ asset('uploads/website/baggageLogo.jpeg') }}"
                                 alt="logo" height="30px" width="10px"></a>
                     </div>
                     <div class="header-nav d-none d-lg-flex">
@@ -302,7 +302,7 @@
         <div class="mobile-header-wrapper-inner">
             <div class="mobile-header-top">
                 <div class="mobile-header-logo">
-                    <a href="{{ url('/') }}"><img src="{{ asset('uploads/website/baggageLogo.jpg') }}"
+                    <a href="{{ url('/') }}"><img src="{{ asset('uploads/website/baggageLogo.jpeg') }}"
                             alt="logo"></a>
                 </div>
                 <div class="mobile-menu-close close-style-wrap close-style-position-inherit">

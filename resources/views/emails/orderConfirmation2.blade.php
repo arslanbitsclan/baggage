@@ -10,7 +10,7 @@ $template = \App\Models\MailsTemplates::where('id', '=', 1)->first();
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Order Confirmation</title>
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('uploads/website/baggageLogo.jpg') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('uploads/website/baggageLogo.jpeg') }}">
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
     <!-- Start Common CSS -->
@@ -55,7 +55,7 @@ $template = \App\Models\MailsTemplates::where('id', '=', 1)->first();
                                         <tbody class="border-0">
                                             <tr class="border-0">
                                                 <td class="logo logo-width-1 border-0">
-                                                    <a href="{{ url('/') }}"><img src="{{ asset('uploads/website/baggageLogo.jpg') }}"
+                                                    <a href="{{ url('/') }}"><img src="{{ asset('uploads/website/baggageLogo.jpeg') }}"
                                                         alt="logo" height="30px" width="30px"></a>
                                                 </td>
                                             </tr>
