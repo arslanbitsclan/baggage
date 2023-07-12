@@ -562,7 +562,7 @@
         <section class="banner-2 section-padding pb-0">
             <div class="container">
                 <div class="banner-img banner-big wow fadeIn animated f-none">
-                    <img src="{{ asset('uploads/website/category-slider.png') }}" alt="">
+                    <img src="{{ asset('uploads/website/luggage_bag.jpg') }}" alt="" class="w-100 h-50">
                     <!-- <img src="{{ asset('uploads/website/20-26-28-30-32.jpg') }}" alt=""> -->
 
                     <div class="banner-text d-md-block d-none" style="margin-left: -2%;margin-top: 9.1%;">
@@ -574,15 +574,15 @@
         <section class="deals section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 deal-co">
+                    <!-- <div class="col-lg-6 deal-co">
                         <div class="deal wow fadeIn animated mb-md-4 mb-sm-4 mb-lg-0"
-                            style="background-image: url('{{ asset('uploads/website/Square banner 1.png') }}');">
+                            style="background-image: url('{{ asset('uploads/website/cam.jpg') }}');">
                             <div class="deal-top">
-                                <h2 class="text-white">Deal of the Day</h2>
-                                <h5 class="text-white">Limited Quantities</h5>
+                                <h2 class="text-dark">Deal of the Day</h2>
+                                <h5 class="text-dark">Limited Quantities</h5>
                             </div>
                             <div class="deal-content">
-                                <h6 class="product-title"><a href="javascript:void(0)" class="text-white">Luggage
+                                <h6 class="product-title"><a href="javascript:void(0)" class="text-dark">Bag
                                         </a></h6>
                                 <div class="product-price"><span
                                         class="new-price">{{ currency_converter(118.15) }}</span><span
@@ -590,18 +590,42 @@
                             </div>
                             <div class="deal-bottom">
                                 <p>Hurry Up! Offer End In:</p>
-                                <div class="deals-countdown" data-countdown="2025/03/25 00:00:00"></div>
+                                <div class="deals-countdown d-none" data-countdown="2025/03/25 00:00:00"></div>
                                 <a href="{{ url('/shop/accessories/wirelessairphone') }}"
                                     class="btn hover-up"><strong>Shop Now</strong> <i class="fi-rs-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 deal-co">
+  <div class="deal wow fadeIn animated mb-md-4 mb-sm-4 mb-lg-0"
+       style="background-image: url('{{ asset('uploads/website/cam.jpg') }}');">
+    <div class="deal-top">
+      <h2 class="text-light">Special Offer</h2>
+      <h5 class="text-light">Limited Stock</h5>
+    </div>
+    <div class="deal-content">
+      <h6 class="product-title"><a href="javascript:void(0)" class="text-light">Stylish Bag</a></h6>
+      <div class="product-price">
+        <span class="new-price">{{ currency_converter(118.15) }}</span>
+        <span class="old-price">{{ currency_converter(136.84) }}</span>
+      </div>
+    </div>
+    <div class="deal-bottom">
+      <p>Hurry Up! Offer Ends In:</p>
+      <div class="deals-countdown d-none" data-countdown="2025/03/25 00:00:00"></div>
+      <a href="{{ url('/shop/accessories/wirelessairphone') }}" class="btn hover-up">
+        <strong>Shop Now</strong> <i class="fi-rs-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+                    <!-- <div class="col-lg-6 deal-co">
                         <div class="deal wow fadeIn animated"
-                            style="background-image: url('{{ asset('uploads/website/Square banner 2.png') }}');">
+                            style="background-image: url('{{ asset('uploads/website//cam2.jpg') }}');">
                             <div class="deal-top">
-                                <h2 class="text-white">Luggage</h2>
-                                <h5 class="text-white">Collection</h5>
+                                <h2 class="text-dark">Bag</h2>
+                                <h5 class="text-dark">Collection</h5>
                             </div>
                             <div class="deal-content">
                                 <h6 class="product-title"><a href="javascript:void(0)" class="text-white">Try something
@@ -613,12 +637,36 @@
                             </div>
                             <div class="deal-bottom">
                                 <p>Hurry Up! Offer End In:</p>
-                                <div class="deals-countdown" data-countdown="2026/03/25 00:00:00"></div>
+                                <div class="deals-countdown d-none" data-countdown="2026/03/25 00:00:00"></div>
                                 <a href="{{ url('/shop/accessories/wirelessairphone') }}"
                                     class="btn hover-up"><strong>Shop Now</strong><i class="fi-rs-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                    <div class="col-lg-6 deal-co">
+  <div class="deal wow fadeIn animated"
+       style="background-image: url('{{ asset('uploads/website//cam2.jpg') }}');">
+    <div class="deal-top">
+      <h2 class="text-light">Bag Collection</h2>
+      <h5 class="text-light">Explore Something New</h5>
+    </div>
+    <div class="deal-content">
+      <h6 class="product-title"><a href="javascript:void(0)" class="text-white">Try Something New on Vacation</a></h6>
+      <div class="product-price">
+        <span class="new-price">{{ currency_converter(151.3) }}</span>
+        <span class="old-price">{{ currency_converter(218.44) }}</span>
+      </div>
+    </div>
+    <div class="deal-bottom">
+      <p>Hurry Up! Offer Ends In:</p>
+      <div class="deals-countdown d-none" data-countdown="2026/03/25 00:00:00"></div>
+      <a href="{{ url('/shop/accessories/wirelessairphone') }}" class="btn hover-up">
+        <strong>Shop Now</strong><i class="fi-rs-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
                 </div>
             </div>
         </section>
@@ -638,7 +686,7 @@
                 </div>
             </div>
         </section>
-        <section class="banners mb-15">
+        <!-- <section class="banners mb-15">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
@@ -676,7 +724,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="section-padding">
             <div class="container wow fadeIn animated">
                 <h3 class="section-title mb-20"><span>New</span> Arrivals</h3>
@@ -851,33 +899,12 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="banner-img banner-1 wow fadeIn animated">
-                                    <img src="{{ asset('uploads/website/3 type banner v1.png') }}" alt="">
-                                    <div class="banner-text" style="margin-top:-10%">
-                                        <span>Bags</span>
-                                        <h4>Baggage Factory offers <br>Best Sound</h4>
-                                        <a href="{{ url('/shop/accessories/wirelessairphone') }}">Shop Now <i
-                                                class="fi-rs-arrow-right"></i></a>
-                                    </div>
+                                    <img src="{{ asset('uploads/website/blog1.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="banner-img mb-15 wow fadeIn animated">
-                                    <img src="{{ asset('uploads/website/3 type banner v2.png') }}" alt="">
-                                    <div class="banner-text">
-                                        <span>Big Offer</span>
-                                        <h4>On Bag <br>Cases</h4>
-                                        <a href="{{ url('/shop/accessories') }}">Shop Now <i
-                                                class="fi-rs-arrow-right"></i></a>
-                                    </div>
-                                </div>
                                 <div class="banner-img banner-2 wow fadeIn animated">
-                                    <img src="{{ asset('uploads/website/3 type banner v3.png') }}" alt="">
-                                    <div class="banner-text">
-                                        <span>Choose Baggage Factory</span>
-                                        <h4>For Better Bags <br>Experience</h4>
-                                        <a href="{{ url('/shop/accessories') }}">Shop Now <i
-                                                class="fi-rs-arrow-right"></i></a>
-                                    </div>
+                                    <img src="{{ asset('uploads/website/blog3.jpg') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -886,7 +913,7 @@
             </div>
         </section>
         <section class="mb-50">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="banner-bg wow fadeIn animated"
@@ -899,7 +926,38 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+
+            <div class="bags-container">
+  <div class="bags-row">
+    <div class="bags-col">
+      <h5><i class="fas fa-truck"></i> FAST FREE STANDARD DELIVERY STARTING FROM £100</h5>
+      <p>Baggage Factory uses only the best courier services and guarantees the safe delivery of all your online orders.</p>
+    </div>
+    <div class="bags-col">
+      <h5><i class="fas fa-undo-alt"></i> RETURNS ARE FREE</h5>
+      <p>Shopping at Baggage Factory is risk-free. We guarantee your satisfaction by offering free returns.</p>
+    </div>
+  </div>
+  <div class="bags-line"></div> <!-- Add vertical dividing line -->
+  <div class="bags-row">
+    <div class="bags-col">
+      <h5><i class="fas fa-lock"></i> SECURE PAYMENT</h5>
+      <p>Secure Socket Layer (SSL) encryption is used for every transaction to ensure that your order is secure.</p>
+    </div>
+    <div class="bags-col">
+      <h5><i class="fas fa-globe"></i> GLOBAL COMMERCIAL WARRANTY</h5>
+      <p>Baggage Factory guarantees worldwide commercial warranty services to ensure your Baggage Factory luggage can always stay by your side.</p>
+    </div>
+  </div>
+  <div class="bags-line-horizontal"></div> <!-- Add horizontal dividing line -->
+</div>
+
+<!-- Add Font Awesome library -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-oQbR/4g0ZHzK69L4Lm+YUo+Zzhzv3ZE9m8URh9C6Cgj9iHWSvhDKcw5wBujIXzucK57f2fnqKzl+jre0OWq5JQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+
         </section>
         <section>
             @foreach ($products as $product)

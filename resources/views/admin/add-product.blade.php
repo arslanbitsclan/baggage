@@ -59,7 +59,7 @@
                                     </select>
                                 </div>
                                 <div class="mb-4">
-                                    <label for="content" class="form-label">SKU</label>
+                                    <label for="content" class="form-label">Product Code</label>
                                     <input type="text" placeholder="Type here" class="form-control"
                                         value="{{ old('sku') }}" id="sku" name="sku">
                                 </div>
