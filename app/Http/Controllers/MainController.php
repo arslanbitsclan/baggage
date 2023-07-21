@@ -21,6 +21,31 @@ use Illuminate\Support\Facades\DB;
 
 class MainController extends Controller
 {
+
+    public function old()
+    {
+        $wishlist = 0;
+        $cart = 0;
+        $sub_categories = [];
+        if ($this->get_cart() > 0) {
+            $cart = $this->get_cart();
+        }
+        if ($this->get_wishlist() > 0) {
+            $wishlist = $this->get_wishlist();
+        }
+        $blogs=Blogs::where('status', '=', 'Active')->with('blog_categories')->orderBy('created_at', 'desc')->limit(2)->get();
+        $categories = CategoriesModel::where('category_action', '=', 'Enable')->where('status', '=', 'Active')->get();
+        $products = Products::where('status', '=', 'Active')->where('is_publish', '=', 'Publish')->with('brand')->orderBy('created_at', 'desc')->get();
+        foreach ($categories as $category) {
+            $sub_categories[$category->id] = SubCategoriesModel::where('cat_id', '=', $category->id)->where('sub_category_action', '=', 'Enable')->where('status', '=', 'Active')->get();
+        }
+        $active = "home";
+        
+        $data = compact('active', 'categories', 'sub_categories', 'products', 'wishlist', 'cart','blogs');
+       
+        return view('old')->with($data);
+    }
+
     public function home()
     {
         $wishlist = 0;

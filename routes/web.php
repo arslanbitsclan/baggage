@@ -184,6 +184,8 @@ Route::group(['middleware' => 'preventBack'], function () {
     Route::post('/admin/change-password', [AdminController::class, 'change_password'])->name('Admin.change-password');
 });
 // Frontend Routes
+Route::get('/old', [MainController::class, 'old']);
+
 Route::get('/', [MainController::class, 'home']);
 Route::get('/about', [MainController::class, 'about']);
 Route::get('/shop', [MainController::class, 'shop']);

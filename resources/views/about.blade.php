@@ -32,7 +32,7 @@
                         <div class="col-lg-12">
                             <div class="container">
                                 <div class="banner-img banner-big wow fadeIn animated f-none">
-                                    <img src="{{ asset('/uploads/' . $content->ad) }}" alt="">
+                                    <!-- <img src="{{ asset('/uploads/' . $content->ad) }}" alt=""> -->
                                     <div class="banner-text d-md-block d-none" style="margin-left: -2%;margin-top: 9.1%;">
                                         <a href="@if (empty($content->category_slug) && empty($content->sub_category_slug)) {{ url('/shop') }}
                                             @elseif (!empty($content->category_slug) && empty($content->sub_category_slug))

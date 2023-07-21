@@ -133,7 +133,7 @@
                         <span class="text">CMS</span>
                     </a>
                     <div class="submenu">
-                        <a href="{{ route('Admin.sent-mails') }}">Home</a>
+                        <!-- <a href="{{ route('Admin.sent-mails') }}">Home</a> -->
                         <a href="{{ route('Admin.cms-about') }}">About</a>
                         <a href="{{ route('Admin.cms-shop') }}">Shop</a>
                         <a href="{{ route('Admin.cms-blog') }}">Blog</a>

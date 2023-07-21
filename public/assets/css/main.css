@@ -674,13 +674,13 @@ h6 {
   font-size: 12px;
 }
 
-p {
+/* p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 44px;
   margin-bottom: 5px;
   color: #465b52;
-}
+} */
 
 p:last-child {
   margin-bottom: 0;
@@ -879,7 +879,7 @@ h5.widget-title {
 button.submit, button[type='submit'] {
   font-size: 15px;
   font-weight: 500;
-  padding: 12px 40px;
+  padding: 6px 7px;
   color: #ffffff;
   border: none;
   background-color: #86C22F;
@@ -3399,7 +3399,7 @@ table .product-thumbnail img {
   -moz-transition: .2s;
   -webkit-transition: .2s;
   -o-transition: .2s;
-  height: 355px;
+  height: 365px;
 }
 
 .product-cart-wrap:hover {
@@ -10002,3 +10002,257 @@ footer>.section-padding {
 .zoomContainer{ z-index: 9999;}
 .zoomWindow{ z-index: 9999;}
 /*# sourceMappingURL=main.css.map */
+
+.bg_black {
+  background-color: black;
+}
+
+.Samsonite_logo {
+  border-bottom: 1px solid #C7C7C7;
+}
+
+.nav-link {
+  color: black;
+  font-weight: 600;
+}
+
+.Summer {
+  color: red !important;
+}
+
+.ml_6 {
+  margin-left: 150px;
+}
+
+.search_bar {
+  border-radius: 0px;
+}
+
+.nav_Setting {
+  z-index: 99;
+  position: fixed;
+}
+
+.nav_2 {
+  z-index: 99;
+  position: fixed;
+
+  margin-top: 56px;
+  background-color: white;
+}
+
+.nav_3 {
+  z-index: 99;
+  position: fixed;
+  margin-top: 107px;
+  background-color: white;
+}
+
+.mt_image {
+  padding-top: 170px;
+}
+
+/* baggage code start */
+body {
+  font-family: GT America Extended, sans-serif;
+}
+
+.bg_black {
+  background-color: black;
+}
+
+.Samsonite_logo {
+  border-bottom: 1px solid #C7C7C7;
+}
+
+.nav-link {
+  color: black;
+  font-weight: 600;
+}
+
+.inner_fav_Styles>.product_detail>h4 {
+  text-align: initial;
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.inner_fav_Styles>.product_detail>p {
+  text-align: initial;
+  font-size: 14px;
+  color: #828282;
+}
+
+.footer_ul li {
+  list-style: none;
+}
+
+.footer_navlinks {
+  font-size: 14px;
+  color: #efefef;
+}
+
+.benefit-title {
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.Summer {
+  color: red !important;
+}
+
+.ml_6 {
+  margin-left: 150px;
+}
+
+.fs_14 {
+  font-size: 14px;
+  margin: 45px 0px 30px;
+  font-weight: 800;
+}
+
+.search_bar {
+  border-radius: 0px;
+}
+
+.benefit {
+  padding: 50px 60px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1250px;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .top_navigation {
+      display: none;
+  }
+
+  .logo {
+      width: 46% !important;
+  }
+
+  .top_banners {
+      height: 100% !important;
+  }
+
+  .mosaic_banner {
+      display: none;
+  }
+
+  .banner_button {
+      font-size: 12px;
+  }
+}
+
+.header_banner {
+  position: relative;
+}
+
+.inner_top_banner {
+  position: absolute;
+  bottom: 0;
+}
+
+.top_banners {
+  height: 500px;
+}
+
+
+.top_bannerss {
+  height: 522px;
+}
+
+.img-fluid1 {
+  max-width: 100%;
+}
+
+.customBreadcrumb {
+  background-color: transparent;
+  margin-bottom: 0px;
+}
+
+.customBreadcrumb>.breadcrumb-item {
+  font-size: 14px;
+}
+
+.customBreadcrumb>.breadcrumb-item>a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.ProductName {
+  font-size: 30px;
+  font-family: GT America Expanded, sans-serif;
+  font-weight: 900;
+}
+
+.old_price {
+  color: #575757;
+  text-decoration: line-through;
+  font-size: 18px;
+}
+
+.new_price {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.location_modal {
+  font-size: 14px;
+  color: #757575;
+}
+
+.w_30 {
+  width: 30%;
+}
+
+.prod_size {
+  color: #575757;
+  font-size: 14px;
+}
+
+.inner_collection {
+  position: absolute;
+  bottom: 0;
+}
+
+.pos_relativ {
+  position: relative;
+}
+
+.dropdown_region {
+  font-size: 15px;
+  font-weight: 900;
+  margin-top: 20px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.dropdown-menu {
+  width: max-content;
+  padding: 20px;
+}
+
+.dropdown-item {
+  font-size: 14px;
+  padding-left: 0px;
+}
+
+.w_440 {
+  width: 300px;
+}
+
+.brdr_tp {
+  border-top: 1px solid whitesmoke;
+  padding-top: 20px;
+}
+
+.copywt {
+  background-color: #1A1A1A;
+}
+/* Baggage code end  */
