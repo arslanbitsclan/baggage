@@ -120,7 +120,7 @@
             </div>
             <div class="col-lg-4 mosaic_banner">
                 <div class="header_banner">
-                    <img src="{{ asset('uploads/website/mosaic_banner.jpg') }}" class="img-fluid1 top_bannerss mosaic_banner">
+                    <img src="{{ asset('uploads/website/mosaic_banner.jpg') }}" class="img-fluid top_banners">
                     <div class="inner_top_banner m-3">
                         <button
                             class="btn btn-info rounded-1 text-dark bg-white border-0 font-weight-bold px-4 py-3">GET

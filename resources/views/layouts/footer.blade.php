@@ -147,7 +147,7 @@
         <div class="bg_black footer_main">
         <div class=" container  py-4">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12">
                     <h6 class="text-secondary">NEAREST OFFICIAL Baggage Factory STORES</h6>
                     <ul class="p-0 footer_ul">
                         <li><u> <a href="#" class="footer_navlinks">Find a store</a></u></li>
@@ -157,7 +157,7 @@
                     </ul>
 
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12">
                     <h6 class="text-secondary">Support</h6>
                     <ul class="p-0 footer_ul">
                         <li> <a href="{{ url('/about') }}" class="footer_navlinks">About Us</a></li>
@@ -166,7 +166,7 @@
                         <li> <a href="{{ url('/contact') }}" class="footer_navlinks">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12">
                     <h6 class="text-secondary">My Account</h6>
                     <ul class="p-0 footer_ul">
                     @if (!session()->has('customer'))
@@ -178,7 +178,7 @@
                     </ul>
                 </div>
       
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12">
                     <h6 class="text-secondary">CONTACT US</h6>
                     <ul class="p-0 footer_ul">
                         <li> <a href="{{ url('/contact') }}" class="footer_navlinks">Contact Us</a></li>
@@ -201,26 +201,26 @@
         </div>
         <div class="container brdr_tp">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-12 col-sm-12 my-3">
                     <h3 class="text-white">Our Partner</h3>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12 my-3">
                     <img src="{{ asset('uploads/website/amto.png') }}" class="img-fluid w-100">
                     <img src="{{ asset('uploads/website/amto-product.png') }}" class="img-fluid w-100">
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12 my-3">
                     <img src="{{ asset('uploads/website/gregory.png') }}" class="img-fluid w-100">
                     <img src="{{ asset('uploads/website/gregory-product.png') }}" class="img-fluid w-100">
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12 my-3">
                     <img src="{{ asset('uploads/website/lipault.png') }}" class="img-fluid w-100">
                     <img src="{{ asset('uploads/website/lipault-product.png') }}" class="img-fluid w-100">
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12 my-3">
                     <img src="{{ asset('uploads/website/tumi.png') }}" class="img-fluid w-100">
                     <img src="{{ asset('uploads/website/tumi-product.png') }}" class="img-fluid w-100">
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-6 col-sm-12 my-3">
                     <img src="{{ asset('uploads/website/rolling-luggage.png') }}" class="img-fluid w-100">
                     <img src="{{ asset('uploads/website/rolling-luggage-product.png') }}" class="img-fluid w-100">
                 </div>
@@ -228,10 +228,7 @@
 
         </div>
     </div>
-    <div class="copywt p-4 text-white text-center">
-        Copyright © 2023 Baggage Factory. All rights reserved. Visit our corporate site for more information. Baggage Factory and
-        the Baggage Factory logo are registered trademarks of Baggage Factory IP Holdings S.àr.l.
-    </div>
+
     <!-- <div class="container pb-20 wow fadeIn animated ">
         <div class="row">
             <div class="col-12 mb-20">
@@ -250,6 +247,10 @@
         </div>
     </div> -->
     </section>
+    <div class="copywt p-4 text-white text-center">
+        Copyright © 2023 Baggage Factory. All rights reserved. Visit our corporate site for more information. Baggage Factory and
+        the Baggage Factory logo are registered trademarks of Baggage Factory IP Holdings S.àr.l.
+    </div>
     <!-- <div class="container pb-20 wow fadeIn animated">
         <div class="row">
             <div class="col-12 mb-20">

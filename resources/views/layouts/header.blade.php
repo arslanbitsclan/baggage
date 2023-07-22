@@ -407,15 +407,15 @@
 <!-- Country flag start -->
     <div class="container-fluid text-center Samsonite_logo d-flex align-items-center">
 
-<div class="dropdown show">
+<div class="dropdown show top_dropdown">
     <a class="btn btn-secondary dropdown-toggle border-0 bg-transparent text-dark ml-3" href="#" role="button"
         id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         United Kingdom
     </a>
 
     <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuLink">
-        <div class="row">
-            <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+        <div class="p-3 row header_dropdown_main">
+            <div class="col-lg-3 col-md-12 col-sm-12  w_440">
                 <h2 class="dropdown_region">Europe & Africa</h2>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
@@ -430,7 +430,7 @@
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
             </div>
-            <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+            <div class="col-lg-3 col-md-12 col-sm-12  w_440">
                 <h2 class="dropdown_region">America</h2>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
@@ -445,7 +445,7 @@
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
             </div>
-            <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+            <div class="col-lg-3 col-md-12 col-sm-12  w_440">
                 <h2 class="dropdown_region">Asia & Pacific</h2>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
@@ -460,7 +460,7 @@
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
             </div>
-            <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+            <div class="col-lg-3 col-md-12 col-sm-12  w_440">
                 <h2 class="dropdown_region">Distributors</h2>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
