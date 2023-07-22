@@ -10973,7 +10973,12 @@ body {
 }
 
 .top_banners {
-    height: 500px !important;
+    height: 500px ;
+}
+@media (max-width: 1024px){
+    .top_banners {
+        height: 100% ;
+    }
 }
 
 .img-fluid1 {
