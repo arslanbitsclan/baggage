@@ -11052,6 +11052,10 @@ body {
     padding-left: 0px;
 }
 
+.w_440 {
+  width: 300px !important;
+}
+
 .brdr_tp {
     border-top: 1px solid whitesmoke;
     padding-top: 20px;
