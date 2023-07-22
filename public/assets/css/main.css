@@ -10244,7 +10244,7 @@ body {
 }
 
 .w_440 {
-  width: 300px;
+  width: 300px !important;
 }
 
 .brdr_tp {
