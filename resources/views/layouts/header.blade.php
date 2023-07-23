@@ -400,22 +400,17 @@
     </div>
 
 
-    <div class="container-fluid text-center Samsonite_logo">
-        <a><img src="{{ asset('uploads/website/logo.jpeg') }}" class="img-fluid mb-2 logo" style="width: 20%;" /></a>
-    </div>
-
-<!-- Country flag start -->
     <div class="container-fluid text-center Samsonite_logo d-flex align-items-center">
 
-<div class="dropdown show top_dropdown">
-    <a class="btn btn-secondary dropdown-toggle border-0 bg-transparent text-dark ml-3" href="#" role="button"
-        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        United Kingdom
-    </a>
+        <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle border-0 bg-transparent text-dark ml-3" href="#" role="button"
+                id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                United Kingdom
+            </a>
 
-    <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuLink">
-        <div class="p-3 row header_dropdown_main">
-            <div class="col-lg-3 col-md-12 col-sm-12  w_440">
+            <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuLink">
+                <div class="row">
+                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
                 <h2 class="dropdown_region">Europe & Africa</h2>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
@@ -430,8 +425,8 @@
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
             </div>
-            <div class="col-lg-3 col-md-12 col-sm-12  w_440">
-                <h2 class="dropdown_region">America</h2>
+                    <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+                <h2 class="dropdown_region">Europe & Africa</h2>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
@@ -445,8 +440,8 @@
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
             </div>
-            <div class="col-lg-3 col-md-12 col-sm-12  w_440">
-                <h2 class="dropdown_region">Asia & Pacific</h2>
+            <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+                <h2 class="dropdown_region">Europe & Africa</h2>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
@@ -460,8 +455,8 @@
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
             </div>
-            <div class="col-lg-3 col-md-12 col-sm-12  w_440">
-                <h2 class="dropdown_region">Distributors</h2>
+            <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+                <h2 class="dropdown_region">Europe & Africa</h2>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
@@ -475,13 +470,14 @@
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
             </div>
-        </div>
+                </div>
 
+            </div>
+
+        </div>
+        <a><img src="{{ asset('uploads/website/logo.jpeg') }}" class="img-fluid mb-2 logo" style="width: 20%;" /></a>
     </div>
-</div>
-<a><img src="assets/images/logo.jpeg" class="img-fluid mb-2 logo" style="width: 20%;" /></a>
-</div>
-<!-- Country flag end -->
+
     <div class="container-fluid text-center Samsonite_logo ">
         <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent">
             <form class="form-inline my-2 my-lg-0">
@@ -497,19 +493,95 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Luggage <span class="sr-only">(current)</span></a>
+                    <a class="nav-link  border-0 bg-transparent text-dark @if ($active == 'home') active @endif"
+                                            href="{{ url('/') }}">Home</a>
+
+                        <!-- <a class="nav-link  border-0 bg-transparent text-dark " href="{{ url('/') }}" role="button"
+                            id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Home </a> -->
+                        
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link dropdown-toggle border-0 bg-transparent text-dark @if ($active == 'shop') active @endif"
+                         href="{{ url('/shop') }}" role="button"
+                            id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Bags <span class="sr-only">(current)</span></a>
+                        <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuLink">
+                            <div class="row">
+                                <!-- <div class="col-lg-3 w_440 col-sm-12 col-md-12 text-center pt-3">
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                </div> -->
+                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+                                    <h2 class="dropdown_region">Categories</h2>
+                                    @foreach ($categories as $category)
+                                    <a class="dropdown-item" href="{{ url('/shop/' . $category->category_slug) }}">{{ $category->category_title }}</a>
+                                    @endforeach
+                                </div>
+                                <!-- <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+                                    <h2 class="dropdown_region">Asia & Pacific</h2>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                    <a class="dropdown-item" href="#">Belgium</a>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                    <a class="dropdown-item" href="#">Belgium</a>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                </div> -->
+                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+                                    <img src="{{ asset('uploads/website/amto-product.png') }}" class="w-100 img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link dropdown-toggle border-0 bg-transparent text-dark" href="#" role="button"
+                            id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bags
+                        </a>
+                        <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuLink">
+                            <div class="row">
+                                <div class="col-lg-3 w_440 col-sm-12 col-md-12 text-center pt-3">
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
+                                </div>
+                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+                                    <h2 class="dropdown_region">America</h2>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                    <a class="dropdown-item" href="#">Belgium</a>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                    <a class="dropdown-item" href="#">Belgium</a>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                </div>
+                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+                                    <h2 class="dropdown_region">Asia & Pacific</h2>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                    <a class="dropdown-item" href="#">Belgium</a>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                    <a class="dropdown-item" href="#">Belgium</a>
+                                    <a class="dropdown-item" href="#">Austia</a>
+                                </div>
+                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+                                    <img src="assets/images/amto-product.png" class="w-100 img-fluid">
+                                </div>
+
+                            </div>
+
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Backpack</a>
+                        <a class="nav-link" href="{{ url('/about') }}">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Bags</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Disney & Kids</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Personalisation</a>
+                        <a class="nav-link" href="{{ url('/contact') }}">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link Summer" href="#">% Summer Offer %</a>
