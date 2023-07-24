@@ -508,21 +508,21 @@
                             aria-expanded="false">Bags <span class="sr-only">(current)</span></a>
                         <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuLink">
                             <div class="row">
-                                <!-- <div class="col-lg-3 w_440 col-sm-12 col-md-12 text-center pt-3">
+                                <div class="col-lg-3 w_440 col-sm-12 col-md-12 text-center pt-3">
                                     <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
                                     <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
                                     <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
                                     <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
                                     <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
                                     <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                </div> -->
+                                </div>
                                 <div class="col-lg-3 w_440 col-sm-12 col-md-12">
                                     <h2 class="dropdown_region">Categories</h2>
                                     @foreach ($categories as $category)
                                     <a class="dropdown-item" href="{{ url('/shop/' . $category->category_slug) }}">{{ $category->category_title }}</a>
                                     @endforeach
                                 </div>
-                                <!-- <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
                                     <h2 class="dropdown_region">Asia & Pacific</h2>
                                     <a class="dropdown-item" href="#">Austia</a>
                                     <a class="dropdown-item" href="#">Belgium</a>
@@ -530,7 +530,7 @@
                                     <a class="dropdown-item" href="#">Austia</a>
                                     <a class="dropdown-item" href="#">Belgium</a>
                                     <a class="dropdown-item" href="#">Austia</a>
-                                </div> -->
+                                </div>
                                 <div class="col-lg-3 w_440 col-sm-12 col-md-12">
                                     <img src="{{ asset('uploads/website/amto-product.png') }}" class="w-100 img-fluid">
                                 </div>
@@ -583,14 +583,32 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('/contact') }}">Contact Us</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link Summer" href="#">% Summer Offer %</a>
-                    </li>
-                    <li class="nav-item ml_6">
+                    </li> -->
+                    <!-- <li class="nav-item ml_6">
                         <a class="nav-link" href="#">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Brands</a>
+                    </li> -->
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/wishlist') }}">
+                                        <img class="svgInject" alt="Evara"
+                                            src="{{ asset('assets/imgs/theme/icons/icon-heart.svg') }}">
+                                        <span class="pro-count blue" id="wishlistheading">
+                                            {{ $wishlist }}
+                                        </span>
+                                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class=" nav-link mini-cart-icon" href="{{ url('/cart') }}">
+                                        <img alt="Evara" src="{{ asset('assets/imgs/theme/icons/icon-cart.svg') }}">
+                                        <span class="pro-count blue" id="cartheading">
+                                            {{ $cart }}
+                                        </span>
+                                    </a>
                     </li>
                 </ul>
 
