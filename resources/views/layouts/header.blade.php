@@ -23,24 +23,24 @@
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        .logo.logo-width-1 a img {
-            width: 95px;
-            height: 95px;
-            margin-top: -8%;
-            margin-bottom: -8%;
-        }
+    .logo.logo-width-1 a img {
+        width: 95px;
+        height: 95px;
+        margin-top: -8%;
+        margin-bottom: -8%;
+    }
     </style>
 </head>
 
 <body>
     <!-- <header class="header-area header-style-1 header-height-2"> -->
-        <!-- <div class="header-top header-top-ptb-1 d-none d-lg-block">
+    <!-- <div class="header-top header-top-ptb-1 d-none d-lg-block">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-3 col-lg-4">
@@ -101,7 +101,7 @@
                 </div>
             </div>
         </div> -->
-        <!-- <div class="header-middle header-middle-ptb-1 d-none d-lg-block">
+    <!-- <div class="header-middle header-middle-ptb-1 d-none d-lg-block">
             <div class="container">
                 <div class="header-wrap">
                     <div class="logo logo-width-1">
@@ -145,7 +145,7 @@
                 </div>
             </div>
         </div> -->
-        <!-- <div class="header-bottom header-bottom-bg-color sticky-bar">
+    <!-- <div class="header-bottom header-bottom-bg-color sticky-bar">
             <div class="container">
                 <div class="header-wrap header-space-between position-relative">
                     <div class="logo logo-width-1 d-block d-lg-none">
@@ -408,68 +408,68 @@
                 United Kingdom
             </a>
 
-            <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuLink">
-                <div class="row">
-                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
-                <h2 class="dropdown_region">Europe & Africa</h2>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Belgium</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Belgium</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-            </div>
-            <div class="col-lg-3 w_440 col-sm-12 col-md-12">
-                <h2 class="dropdown_region">Europe & Africa</h2>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Belgium</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Belgium</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-            </div>
-            <div class="col-lg-3 w_440 col-sm-12 col-md-12">
-                <h2 class="dropdown_region">Europe & Africa</h2>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Belgium</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Belgium</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-            </div>
-            <div class="col-lg-3 w_440 col-sm-12 col-md-12">
-                <h2 class="dropdown_region">Europe & Africa</h2>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Belgium</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Belgium</a>
-                <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
-                        style="width: 12%; margin-right: 10px;" />Austia</a>
-            </div>
+            <div class="dropdown-menu text-start p-4" aria-labelledby="dropdownMenuLink">
+                <div class="d-flex header_dropdown_main">
+                    <div class="p-3 w_440">
+                        <h2 class="dropdown_region">Europe & Africa</h2>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Belgium</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Belgium</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                    </div>
+                    <div class="p-3 w_440">
+                        <h2 class="dropdown_region">Europe & Africa</h2>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Belgium</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Belgium</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                    </div>
+                    <div class="p-3 w_440">
+                        <h2 class="dropdown_region">Europe & Africa</h2>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Belgium</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Belgium</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                    </div>
+                    <div class="p-3 w_440">
+                        <h2 class="dropdown_region">Europe & Africa</h2>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Belgium</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Belgium</a>
+                        <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
+                                style="width: 12%; margin-right: 10px;" />Austia</a>
+                    </div>
                 </div>
 
             </div>
@@ -490,97 +490,45 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                    <a class="nav-link  border-0 bg-transparent text-dark @if ($active == 'home') active @endif"
-                                            href="{{ url('/') }}">Home</a>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item ml-2 active">
+                        <a class="nav-link  border-0 bg-transparent text-dark @if ($active == 'home') active @endif"
+                            href="{{ url('/') }}">Home</a>
 
                         <!-- <a class="nav-link  border-0 bg-transparent text-dark " href="{{ url('/') }}" role="button"
                             id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Home </a> -->
-                        
+
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item ml-2">
                         <a class="nav-link dropdown-toggle border-0 bg-transparent text-dark @if ($active == 'shop') active @endif"
-                         href="{{ url('/shop') }}" role="button"
-                            id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">Bags <span class="sr-only">(current)</span></a>
+                            href="{{ url('/shop') }}" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Bags <span class="sr-only">(current)</span></a>
                         <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuLink">
-                            <div class="row">
-                                <div class="col-lg-3 w_440 col-sm-12 col-md-12 text-center pt-3">
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                </div>
-                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+                            <div class="header_dropdown_main d-flex">
+
+                                <div class=" w_250 p-3 ">
                                     <h2 class="dropdown_region">Categories</h2>
                                     @foreach ($categories as $category)
-                                    <a class="dropdown-item" href="{{ url('/shop/' . $category->category_slug) }}">{{ $category->category_title }}</a>
+                                    <a class="dropdown-item fw_700 pl-0"
+                                        href="{{ url('/shop/' . $category->category_slug) }}">{{ $category->category_title }}</a>
                                     @endforeach
                                 </div>
-                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
-                                    <h2 class="dropdown_region">Asia & Pacific</h2>
-                                    <a class="dropdown-item" href="#">Austia</a>
-                                    <a class="dropdown-item" href="#">Belgium</a>
-                                    <a class="dropdown-item" href="#">Austia</a>
-                                    <a class="dropdown-item" href="#">Austia</a>
-                                    <a class="dropdown-item" href="#">Belgium</a>
-                                    <a class="dropdown-item" href="#">Austia</a>
+                                <div class=" w_250 p-3 ">
+                                    <img src="{{ asset('uploads/website/amto-product.png') }}" class="w-75 img-fluid">
                                 </div>
-                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
-                                    <img src="{{ asset('uploads/website/amto-product.png') }}" class="w-100 img-fluid">
+                                <div class=" w_250 p-3 ">
+                                    <img src="{{ asset('uploads/website/amto-product.png') }}" class="w-75 img-fluid">
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <!-- <li class="nav-item ">
-                        <a class="nav-link dropdown-toggle border-0 bg-transparent text-dark" href="#" role="button"
-                            id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bags
-                        </a>
-                        <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuLink">
-                            <div class="row">
-                                <div class="col-lg-3 w_440 col-sm-12 col-md-12 text-center pt-3">
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                    <a class="dropdown-item luggage_drops" href="#">Personalise your suitcase</a>
-                                </div>
-                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
-                                    <h2 class="dropdown_region">America</h2>
-                                    <a class="dropdown-item" href="#">Austia</a>
-                                    <a class="dropdown-item" href="#">Belgium</a>
-                                    <a class="dropdown-item" href="#">Austia</a>
-                                    <a class="dropdown-item" href="#">Austia</a>
-                                    <a class="dropdown-item" href="#">Belgium</a>
-                                    <a class="dropdown-item" href="#">Austia</a>
-                                </div>
-                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
-                                    <h2 class="dropdown_region">Asia & Pacific</h2>
-                                    <a class="dropdown-item" href="#">Austia</a>
-                                    <a class="dropdown-item" href="#">Belgium</a>
-                                    <a class="dropdown-item" href="#">Austia</a>
-                                    <a class="dropdown-item" href="#">Austia</a>
-                                    <a class="dropdown-item" href="#">Belgium</a>
-                                    <a class="dropdown-item" href="#">Austia</a>
-                                </div>
-                                <div class="col-lg-3 w_440 col-sm-12 col-md-12">
-                                    <img src="assets/images/amto-product.png" class="w-100 img-fluid">
-                                </div>
 
-                            </div>
-
-                        </div>
-                    </li> -->
-                    <li class="nav-item">
+                    <li class="nav-item ml-2">
                         <a class="nav-link" href="{{ url('/about') }}">About Us</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ml-2">
                         <a class="nav-link" href="{{ url('/contact') }}">Contact Us</a>
                     </li>
                     <!-- <li class="nav-item">
@@ -593,22 +541,17 @@
                         <a class="nav-link" href="#">Brands</a>
                     </li> -->
 
-                    <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/wishlist') }}">
-                                        <img class="svgInject" alt="Evara"
-                                            src="{{ asset('assets/imgs/theme/icons/icon-heart.svg') }}">
-                                        <span class="pro-count blue" id="wishlistheading">
-                                            {{ $wishlist }}
-                                        </span>
-                                    </a>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link ">
+                            <i class="fa-regular fa-heart"></i> <sup class="badge badge-light" id="wishlistheading">
+                                {{ $wishlist }}</sup>
+                        </a>
                     </li>
-                    <li class="nav-item">
-                    <a class=" nav-link mini-cart-icon" href="{{ url('/cart') }}">
-                                        <img alt="Evara" src="{{ asset('assets/imgs/theme/icons/icon-cart.svg') }}">
-                                        <span class="pro-count blue" id="cartheading">
-                                            {{ $cart }}
-                                        </span>
-                                    </a>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link">
+                            <i class="fa-solid fa-cart-shopping"></i> <sup class="badge badge-light" id="cartheading">
+                                {{ $cart }}</sup>
+                        </a>
                     </li>
                 </ul>
 

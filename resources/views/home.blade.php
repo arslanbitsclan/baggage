@@ -1,34 +1,35 @@
 @extends('layouts.main')
 @push('head')
-    <title>Home | Baggage Factory</title>
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <style>
-        .c-text {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 1;
-            /* number of lines to show */
-            -webkit-box-orient: vertical;
-        }
+<title>Home | Baggage Factory</title>
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<style>
+.c-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
 
-        .banner-img.banner-2 .banner-text {
-            left: -10px;
-            top: 55px;
-        }
-        .l2-text {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            /* number of lines to show */
-            -webkit-box-orient: vertical;
-        }
-    </style>
+.banner-img.banner-2 .banner-text {
+    left: -10px;
+    top: 55px;
+}
+
+.l2-text {
+    f overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+</style>
 @endpush
 @section('section')
-    <main class="main">
-        <!-- <section class="home-slider position-relative">
+<main class="main">
+    <!-- <section class="home-slider position-relative">
             <div class="hero-slider-1 dot-style-1 dot-style-1-position-1">
                 <div class="single-hero-slider single-animation-wrap">
                     <div class="container">
@@ -104,7 +105,7 @@
             <div class="slider-arrow hero-slider-1-arrow"></div>
         </section> -->
 
-        <div class="my-4 container-fluid">
+    <div class="my-4 container-fluid">
         <div class="row">
             <div class="col-lg-8">
                 <div class="header_banner">
@@ -118,9 +119,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mosaic_banner">
+            <div class="col-lg-4">
                 <div class="header_banner">
-                    <img src="{{ asset('uploads/website/mosaic_banner.jpg') }}" class="img-fluid1 top_bannerss mosaic_banner">
+                    <img src="{{ asset('uploads/website/mosaic_banner.jpg') }}" class="img-fluid top_banners">
                     <div class="inner_top_banner m-3">
                         <button
                             class="btn btn-info rounded-1 text-dark bg-white border-0 font-weight-bold px-4 py-3">GET
@@ -130,7 +131,7 @@
             </div>
         </div>
     </div>
-        <!-- {{-- <section class="featured section-padding position-relative">
+    <!-- {{-- <section class="featured section-padding position-relative">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
@@ -173,98 +174,82 @@
             </div>
         </section> --}} -->
 
-<div class="container-fluid mt-4">
+    <div class="container-fluid mt-4">
 
-<h5 class="ml-5 fs_14">Our Recommendations</h5>
+        <h5 class="ml-2 fs_14">Our Recommendations</h5>
 
-<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-    <div class="carousel-inner text-center">
-        
-        <div class="carousel-item active">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="inner_bag_details">
-                        <img src="{{ asset('uploads/website/suit.png') }}" class="img-fluid">
-                        <div class="product_detail ">
-                            <h4 class="mb-0">Proxis</h4>
-                            <p class="mb-0">75 x 51 x 31 cm | 3 kg</p>
-                            <h6 class="mb-0">£419.00</h6>
+        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner text-center">
+                @php $counter = 0; @endphp
+                <div class="carousel-item active">
+                    <div class="row">
+                        @foreach ($products as $product)
+
+                        @if ($counter % 4 == 0 && $counter > 0)
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        @endif
+                        <div class="col-lg-3">
+                            <div class="inner_bag_details">
+                                <a href="{{ url('/product-detail/' . $product->id) }}">
+                                    @php
+                                    $image = explode(',', $product->suppornting_media);
+                                    @endphp
+                                    <img class="img-fluid w-100" src="{{ asset('uploads/' . $product->main_media) }}"
+                                        alt="">
+                                </a>
+                                <div class="product_detail mt-3">
+
+                                    <h5 class="mb-0" title="{{ $product->title }}">
+                                        <a href="{{ url('/product-detail/' . $product->id) }}"
+                                            class="text-decoration-none text-dark">{{ $product->title }}</a>
+                                    </h5>
+
+                                    @php
+                                    $price = 0;
+                                    @endphp
+                                    <!-- <p class="mb-0">75 x 51 x 31 cm | 3 kg</p> -->
+                                    <div class="baggage-product-price h3 mb-0">
+                                        @if ($product->sale_price > 0)
+                                        <span class="sale-price">{{ currency_converter($product->sale_price) }}</span>
+                                        <span class="old-price">{{ currency_converter($product->price) }}</span>
+                                        @php
+                                        $price = $product->sale_price;
+                                        @endphp
+                                        @else
+                                        <span class="regular-price">{{ currency_converter($product->price) }}</span>
+                                        @php
+                                        $price = $product->price;
+                                        @endphp
+                                        @endif
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-around border mt-2">
+
+                                <a>
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                                <a>
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+
+                            </div>
                         </div>
+                        @php $counter++; @endphp
+                        @endforeach
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div> -->
 
-<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner text-center">
-        @php $counter = 0; @endphp
-        <div class="carousel-item active">
-            <div class="row">
-                @foreach ($products as $product)
-                    
-                        @if ($counter % 4 == 0 && $counter > 0)
-            </div>
+
+        <div class="mt-5">
+            <img src="{{ asset('uploads/website/mid_banner.jpg') }}" alt="mid banner not found" class="img-fluid">
         </div>
-    <div class="carousel-item">
-        <div class="row">
-            @endif
-                <div class="col-lg-3">
-                    <div class="inner_bag_details">
-                        <a href="{{ url('/product-detail/' . $product->id) }}">
-                            @php
-                                $image = explode(',', $product->suppornting_media);
-                            @endphp
-                            <img class="img-fluid" src="{{ asset('uploads/' . $product->main_media) }}"alt="">                                
-                        </a>
-                            <div class="product_detail ">
-                             
-                               <h5 class="mb-0" title="{{ $product->title }}">
-                                <a href="{{ url('/product-detail/' . $product->id) }}">{{ $product->title }}</a>
-                            </h5>
-                      
-                             @php
-                                $price = 0;
-                            @endphp
-                               <!-- <p class="mb-0">75 x 51 x 31 cm | 3 kg</p> -->
-                                    <div class="baggage-product-price">                                        
-                                            @if ($product->sale_price > 0)
-                                                <span class="sale-price">{{ currency_converter($product->sale_price) }}</span>
-                                                <span class="old-price">{{ currency_converter($product->price) }}</span>
-                                                @php
-                                                    $price = $product->sale_price;
-                                                @endphp
-                                            @else
-                                                <span class="regular-price">{{ currency_converter($product->price) }}</span>
-                                                @php
-                                                    $price = $product->price;
-                                                @endphp
-                                            @endif
-                                       </div>
-                                    </div>
-                                </div>
-                </div>
-                        @php $counter++; @endphp
-                        @endforeach
-            </div>
-        </div>
-    </div>
-</div>
-
-
- <div class="mt-5">
-        <img src="{{ asset('uploads/website/mid_banner.jpg') }}" alt="mid banner not found" class="img-fluid">
-    </div>
         <!-- I need this section start -->
         <!-- <section class="product-tabs section-padding position-relative wow fadeIn animated">
             <div class="bg-square"></div>
@@ -677,64 +662,69 @@
         </section> -->
         <!-- I need this section start -->
 
-        <div class="container mt-5">
-        <h5 class="fs_14">SHOP YOUR FAVOURITE STYLES</h5>
-<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner text-center">
-        @php $counter = 0; @endphp
-        <div class="carousel-item active">
-            <div class="row">
-                @foreach ($products as $product)
-                    @if ($product->is_feature == 'Featured')
-                        @if ($counter % 4 == 0 && $counter > 0)
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                        @endif
-                        <div class="col-lg-3">
-                            <div class="inner_fav_Styles">
-                                <a href="{{ url('/product-detail/' . $product->id) }}">
-                                    @php
-                                        $image = explode(',', $product->suppornting_media);
-                                    @endphp
-                                    <img class="img-fluid"
-                                        src="{{ asset('uploads/' . $product->main_media) }}"
-                                        alt="">
-                                </a>
-                                <div class="product_detail">
-                                    <!-- <h4 class="mb-0 mt-3 mb-3">More Sustainable Luggage & Bags</h4> -->
-                                    <h4 class="mb-0 mt-3 mb-3" title="{{ $product->title }}">
-                                       <a href="{{ url('/product-detail/' . $product->id) }}">{{ $product->title }}</a>
-                                    </h4>
+        <div class="container-fluid mt-5">
+            <h5 class="fs_14">SHOP YOUR FAVOURITE STYLES</h5>
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner text-center">
+                    @php $counter = 0; @endphp
+                    <div class="carousel-item active">
+                        <div class="row">
+                            @foreach ($products as $product)
 
-                                    <p>{{ $product->content }}</p>
+                            @if ($counter % 4 == 0 && $counter > 0)
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            @endif
+                            <div class="col-lg-3">
+                                <div class="inner_bag_details">
+                                    <a href="{{ url('/product-detail/' . $product->id) }}">
+                                        @php
+                                        $image = explode(',', $product->suppornting_media);
+                                        @endphp
+                                        <img class="img-fluid w-100"
+                                            src="{{ asset('uploads/' . $product->main_media) }}" alt="">
+                                    </a>
+                                    <div class="product_detail mt-3">
+
+                                        <h5 class="mb-0" title="{{ $product->title }}">
+                                            <a href="{{ url('/product-detail/' . $product->id) }}"
+                                                class="text-decoration-none text-dark">{{ $product->title }}</a>
+                                        </h5>
+
+                                        @php
+                                        $price = 0;
+                                        @endphp
+                                        <!-- <p class="mb-0">75 x 51 x 31 cm | 3 kg</p> -->
+                                        <div class="baggage-product-price h3 mb-0">
+                                            @if ($product->sale_price > 0)
+                                            <span
+                                                class="sale-price">{{ currency_converter($product->sale_price) }}</span>
+                                            <span class="old-price">{{ currency_converter($product->price) }}</span>
+                                            @php
+                                            $price = $product->sale_price;
+                                            @endphp
+                                            @else
+                                            <span class="regular-price">{{ currency_converter($product->price) }}</span>
+                                            @php
+                                            $price = $product->price;
+                                            @endphp
+                                            @endif
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            @php $counter++; @endphp
+                            @endforeach
                         </div>
-                        @php $counter++; @endphp
-                    @endif
-                @endforeach
+                    </div>
+                </div>
             </div>
         </div>
+
     </div>
-
-    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-
-
- 
-</div>
-
- </div>
- <script>
+    <script>
     $(document).ready(function() {
         // Set the carousel to loop automatically
         $('#carouselExampleIndicators2').carousel({
@@ -742,9 +732,9 @@
             wrap: true // Set wrap to true to enable looping
         });
     });
-</script>
+    </script>
 
-        <!-- <section class="banner-2 section-padding pb-0">
+    <!-- <section class="banner-2 section-padding pb-0">
             <div class="container">
                 <div class="banner-img banner-big wow fadeIn animated f-none">
                     <img src="{{ asset('uploads/website/category-slider.png') }}" alt="">
@@ -755,7 +745,7 @@
                 </div>
             </div>
         </section> -->
-        <!-- <section class="deals section-padding">
+    <!-- <section class="deals section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 deal-co">
@@ -806,7 +796,7 @@
                 </div>
             </div>
         </section> -->
-        <!-- <section class="popular-categories section-padding mt-15 mb-25">
+    <!-- <section class="popular-categories section-padding mt-15 mb-25">
             <div class="container wow fadeIn animated">
                 <h3 class="section-title mb-20"><span>Popular</span> Categories</h3>
                 <div class="carausel-6-columns-cover position-relative">
@@ -822,7 +812,7 @@
                 </div>
             </div>
         </section> -->
-        <!-- <section class="banners mb-15">
+    <!-- <section class="banners mb-15">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
@@ -861,7 +851,7 @@
                 </div>
             </div>
         </section> -->
-        <!-- <section class="section-padding">
+    <!-- <section class="section-padding">
             <div class="container wow fadeIn animated">
                 <h3 class="section-title mb-20"><span>New</span> Arrivals</h3>
                 <div class="carausel-6-columns-cover position-relative">
@@ -955,7 +945,7 @@
                 </div>
             </div>
         </section> -->
-        <!-- {{-- <section class="section-padding">
+    <!-- {{-- <section class="section-padding">
             <div class="container">
                 <h3 class="section-title mb-20 wow fadeIn animated"><span>Featured</span> Brands</h3>
                 <div class="carausel-6-columns-cover position-relative wow fadeIn animated">
@@ -994,7 +984,7 @@
                 </div>
             </div>
         </section> --}} -->
-        <!-- <section class="section-padding">
+    <!-- <section class="section-padding">
             <div class="container pt-25 pb-20">
                 <div class="row">
                     <div class="col-lg-6">
@@ -1069,8 +1059,8 @@
                 </div>
             </div>
         </section> -->
-        <section class="mb-50">
-            <!-- <div class="container">
+    <section class="mb-50">
+        <!-- <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="banner-bg wow fadeIn animated"
@@ -1084,11 +1074,11 @@
                     </div>
                 </div>
             </div> -->
-            <div class="mt-5">
-        <img src="{{ asset('uploads/website/emboss.jpg') }}" alt="emboss image" class="img-fluid">
-    </div>
-        </section>
-        <!-- <section>
+        <div class="mt-5">
+            <img src="{{ asset('uploads/website/emboss.jpg') }}" alt="emboss image" class="img-fluid">
+        </div>
+    </section>
+    <!-- <section>
             @foreach ($products as $product)
                 @php
                     $images = explode(',', $product->suppornting_media);
@@ -1232,64 +1222,64 @@
                 </div>
             @endforeach
         </section> -->
-    </main>
+</main>
 @endsection
 @push('footer')
-    <script>
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+<script>
+$.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
+});
+
+function addToCart(id, price, qty) {
+    $.ajax({
+        method: "post",
+        url: "{{ url('/AddToCart') }}",
+        data: {
+            "product_id": id,
+            "product_price": price,
+            "product_qty": qty
+        },
+        success: function(response) {
+            if (response.success) {
+                iziToast.success({
+                    position: 'topRight',
+                    message: response.message
+                });
+                $('#cartheading').html(response.qty);
+            } else {
+                iziToast.warning({
+                    position: 'topRight',
+                    message: response.message
+                });
             }
-        });
-
-        function addToCart(id, price, qty) {
-            $.ajax({
-                method: "post",
-                url: "{{ url('/AddToCart') }}",
-                data: {
-                    "product_id": id,
-                    "product_price": price,
-                    "product_qty": qty
-                },
-                success: function(response) {
-                    if (response.success) {
-                        iziToast.success({
-                            position: 'topRight',
-                            message: response.message
-                        });
-                        $('#cartheading').html(response.qty);
-                    } else {
-                        iziToast.warning({
-                            position: 'topRight',
-                            message: response.message
-                        });
-                    }
-                }
-            });
         }
+    });
+}
 
-        function addToWishlist(id) {
-            $.ajax({
-                method: "post",
-                url: "{{ url('/AddToWishlist') }}",
-                data: {
-                    "product_id": id,
-                },
-                success: function(response) {
-                    if (response.success) {
-                        iziToast.success({
-                            position: 'topRight',
-                            message: response.message
-                        });
-                        $('#wishlistheading').html(response.qty)
-                    } else {
-                        iziToast.warning({
-                            position: 'topRight',
-                            message: response.message
-                        });
-                    }
-                }
-            });
+function addToWishlist(id) {
+    $.ajax({
+        method: "post",
+        url: "{{ url('/AddToWishlist') }}",
+        data: {
+            "product_id": id,
+        },
+        success: function(response) {
+            if (response.success) {
+                iziToast.success({
+                    position: 'topRight',
+                    message: response.message
+                });
+                $('#wishlistheading').html(response.qty)
+            } else {
+                iziToast.warning({
+                    position: 'topRight',
+                    message: response.message
+                });
+            }
         }
-    </script>
+    });
+}
+</script>
 @endpush
