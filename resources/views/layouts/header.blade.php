@@ -425,7 +425,7 @@
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
             </div>
-                    <div class="col-lg-3 w_440 col-sm-12 col-md-12">
+            <div class="col-lg-3 w_440 col-sm-12 col-md-12">
                 <h2 class="dropdown_region">Europe & Africa</h2>
                 <a class="dropdown-item" href="#"><img src="{{ asset('uploads/website/flag.webp') }}"
                         style="width: 12%; margin-right: 10px;" />Austia</a>
@@ -537,7 +537,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item ">
+                    <!-- <li class="nav-item ">
                         <a class="nav-link dropdown-toggle border-0 bg-transparent text-dark" href="#" role="button"
                             id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bags
                         </a>
@@ -576,7 +576,7 @@
                             </div>
 
                         </div>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('/about') }}">About Us</a>
                     </li>

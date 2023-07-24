@@ -2073,6 +2073,16 @@ label {
   color: #4f5d77;
 }
 
+h5 a {
+  color: black;
+
+  display: block;
+  font-family: GT America Expanded,sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+
+}
+
 .card-1:hover a {
   color: #080808;
 }
@@ -3664,6 +3674,37 @@ table .product-thumbnail img {
   margin: 0 0 0 7px;
   text-decoration: line-through;
 }
+
+/* .baggage-product-price span.old-price {
+  font-size: 14px;
+  font-weight: 600;
+  color: #90908e;
+  margin: 0 0 0 7px;
+  text-decoration: line-through;
+} */
+
+.baggage-product-price span.regular-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000; /* Black color for regular price */
+  margin-right: 7px;
+}
+
+.baggage-product-price span.sale-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #c91010; /* Red color for sale price */
+  margin-right: 7px;
+}
+
+.baggage-product-price span.old-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #90908e;
+  text-decoration: line-through;
+}
+
+
 
 .product-cart-wrap .product-content-wrap .rating-result {
   display: -webkit-box;

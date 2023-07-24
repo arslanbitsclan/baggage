@@ -228,7 +228,13 @@
                             <img class="img-fluid" src="{{ asset('uploads/' . $product->main_media) }}"alt="">                                
                         </a>
                             <div class="product_detail ">
-                               <h4 class="mb-0">Proxis</h4>
+
+                            <h4 class="mb-0" title="{{ $product->title }}">
+                                <a href="{{ url('/product-detail/' . $product->id) }}">{{ $product->title }}</a>
+                            </h4>
+
+
+                               <!-- <h4 class="mb-0">Proxis</h4> -->
                                <p class="mb-0">75 x 51 x 31 cm | 3 kg</p>
                                <h6 class="mb-0">£419.00</h6>
                             </div>
