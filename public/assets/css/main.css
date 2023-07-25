@@ -11017,8 +11017,15 @@ body {
     position: relative;
 }
 
+.navbar-nav .dropdown-menu {
+   
+    width: 100%;
+}
+
+
+
 .dropdown_region {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 900;
     border-bottom: 2px solid black;
     padding-bottom: 10px;
@@ -11027,11 +11034,13 @@ body {
 .dropdown-menu {
     width: max-content;
     padding: 20px;
+   
 }
 
 .dropdown-item {
     font-size: 14px;
     padding-left: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .w_440 {
@@ -11067,4 +11076,8 @@ body {
     background-color: transparent !important;
     color: black !important;
 }
+
+.hidden-uk-dropdown {
+    visibility: hidden;
+  }
 /* Baggage code end  */

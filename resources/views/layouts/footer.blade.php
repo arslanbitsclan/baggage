@@ -147,7 +147,7 @@
                         <h6 class="text-secondary">Support</h6>
                         <ul class="p-0 footer_ul">
                             <li> <a href="{{ url('/about') }}" class="footer_navlinks">About Us</a></li>
-                            <li> <a href="{{ url('/privacy-policy') }}" class="footer_navlinks">Privacy Policy</a></li>
+                            <li> <a href="{{ url('/privacy-policy') }}" class="footer_navlinks">Return Policy</a></li>
                             <li> <a href="{{ url('/terms&conditions') }}" class="footer_navlinks">Terms & Conditions</a>
                             </li>
                             <li> <a href="{{ url('/contact') }}" class="footer_navlinks">Contact Us</a></li>

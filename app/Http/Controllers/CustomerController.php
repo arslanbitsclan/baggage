@@ -866,7 +866,7 @@ class CustomerController extends Controller
             'id' => 'required'
         ]);
         if (str_contains($request->id, "SDRO")) {
-            $id = str_replace("SDRO", "", $request->id);
+            $id = str_replace("SDRO#", "", $request->id);
             $status = Orders::where('id', '=', $id)->first();
             if (!empty($status)) {
                 return response()->json([
@@ -880,8 +880,9 @@ class CustomerController extends Controller
                 ]);
             }
         } else if (str_contains($request->id, "SDVO")) {
-            $id = str_replace("SDVO", "", $request->id);
+            $id = str_replace("SDVO#", "", $request->id);
             $status = VistorOrders::where('id', '=', $id)->first();
+            // dd($id);
             if (!empty($status)) {
                 return response()->json([
                     'success' => true,

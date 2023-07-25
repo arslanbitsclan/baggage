@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @push('head')
-    <title>Privacy Policy | Baggage Factory</title>
+    <title>Return Policy | Baggage Factory</title>
 @endpush
 @section('section')
     @php
@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="breadcrumb">
                     <a href="{{ url('/') }}" rel="nofollow">Home</a>
-                    <span></span> Privacy policy
+                    <span></span> Return policy
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
                     <div class="col-lg-12">
                         <div class="single-page pr-30">
                             <div class="single-header style-2">
-                                <h2>Privacy Policy Baggage Factory</h2>
+                                <h2>Return Policy Baggage Factory</h2>
                             </div>
                             <div class="single-content">
                                 {!! $content->content !!}

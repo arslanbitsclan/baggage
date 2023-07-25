@@ -137,7 +137,7 @@
                         <a href="{{ route('Admin.cms-about') }}">About</a>
                         <a href="{{ route('Admin.cms-shop') }}">Shop</a>
                         <a href="{{ route('Admin.cms-blog') }}">Blog</a>
-                        <a href="{{ route('Admin.cms-privacy-policy') }}">Privacy Policy</a>
+                        <a href="{{ route('Admin.cms-privacy-policy') }}">Return Policy</a>
                         <a href="{{ route('Admin.cms-terms-conditions') }}">Terms & Conditions</a>
                         <a href="{{ route('Admin.cms-blog-detail') }}">Single Blog</a>
                         <a href="{{ route('Admin.cms-product-detail') }}">Single Product</a>

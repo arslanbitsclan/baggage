@@ -1,7 +1,7 @@
 @if (session()->has('admin'))
     @extends('admin.layout.main')
     @push('head')
-        <title>Privacy Policy CMS | Baggage Factory</title>
+        <title>Return Policy CMS | Baggage Factory</title>
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <script src="https://cdn.tiny.cloud/1/8oeks8k7g5tttl2iblee9nuom6rbatrupkj5fs1c23k9gn11/tinymce/6/tinymce.min.js"
             referrerpolicy="origin"></script>
@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="content-header">
-                        <h2 class="content-title">Privacy Policy CMS</h2>
+                        <h2 class="content-title">Return Policy CMS</h2>
                     </div>
                 </div>
                 <div class="col-lg-8">

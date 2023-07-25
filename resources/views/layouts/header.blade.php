@@ -402,7 +402,7 @@
 
     <div class="container-fluid text-center Samsonite_logo d-flex align-items-center">
 
-        <div class="dropdown show">
+        <div class="dropdown show hidden-uk-dropdown">
             <a class="btn btn-secondary dropdown-toggle border-0 bg-transparent text-dark ml-3" href="#" role="button"
                 id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 United Kingdom
@@ -495,11 +495,6 @@
                     <li class="nav-item ml-2 active">
                         <a class="nav-link  border-0 bg-transparent text-dark @if ($active == 'home') active @endif"
                             href="{{ url('/') }}">Home</a>
-
-                        <!-- <a class="nav-link  border-0 bg-transparent text-dark " href="{{ url('/') }}" role="button"
-                            id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">Home </a> -->
-
                     </li>
                     <li class="nav-item ml-2">
                         <a class="nav-link dropdown-toggle border-0 bg-transparent text-dark @if ($active == 'shop') active @endif"
@@ -516,9 +511,12 @@
                                     @endforeach
                                 </div>
                                 <div class=" w_250 p-3 ">
-                                    <img src="{{ asset('uploads/website/amto-product.png') }}" class="w-75 img-fluid">
+                                    <img src="{{ asset('uploads/website/dropdown1.png') }}" class="w-75 img-fluid">
                                 </div>
                                 <div class=" w_250 p-3 ">
+                                    <img src="{{ asset('uploads/website/dropdown2.png') }}" class="w-75 img-fluid">
+                                </div>
+                                  <div class=" w_250 p-3 ">
                                     <img src="{{ asset('uploads/website/amto-product.png') }}" class="w-75 img-fluid">
                                 </div>
                             </div>
@@ -531,24 +529,22 @@
                     <li class="nav-item ml-2">
                         <a class="nav-link" href="{{ url('/contact') }}">Contact Us</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link Summer" href="#">% Summer Offer %</a>
-                    </li> -->
-                    <!-- <li class="nav-item ml_6">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Brands</a>
-                    </li> -->
 
                     <li class="nav-item ml-2">
-                        <a class="nav-link ">
+                        <a class="nav-link " href="{{ url('/wishlist') }}">
+                        <span class="badge badge-light">
+                  	My Wish Lists
+                  </span> 
                             <i class="fa-regular fa-heart"></i> <sup class="badge badge-light" id="wishlistheading">
                                 {{ $wishlist }}</sup>
+                       
                         </a>
                     </li>
                     <li class="nav-item ml-2">
-                        <a class="nav-link">
+                        <a class="nav-link" href="{{ url('/cart') }}">
+                        <span class="badge badge-light">
+                  	View Cart
+                  </span> 
                             <i class="fa-solid fa-cart-shopping"></i> <sup class="badge badge-light" id="cartheading">
                                 {{ $cart }}</sup>
                         </a>

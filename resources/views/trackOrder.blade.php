@@ -194,6 +194,7 @@
                 data: form.serialize(), // serializes form input
                 success: function(response) {
                     if (response.success) {
+    
                         $('#result').removeAttr('hidden');
                         $("#track_order")[0].reset();
                         $('#orderid').html('Order ID: ' + response.message.id);
