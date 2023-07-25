@@ -29,7 +29,7 @@
 @endpush
 @section('section')
 <main class="main">
-    <!-- <section class="home-slider position-relative">
+    <!-- <section class="home-slider">
             <div class="hero-slider-1 dot-style-1 dot-style-1-position-1">
                 <div class="single-hero-slider single-animation-wrap">
                     <div class="container">
@@ -107,9 +107,9 @@
 
     <div class="my-4 container-fluid">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-12 p-0">
                 <div class="header_banner">
-                    <img src="{{ asset('uploads/website/head_banner.jpg') }}" class="img-fluid top_banners">
+                    <img src="{{ asset('uploads/website/431.png') }}" class="img-fluid w-100 h-100 top_banners">
                     <div class="inner_top_banner m-3">
                         <button
                             class="btn btn-info rounded-1 text-dark bg-white border-0 font-weight-bold px-4 py-3 banner_button">UPGRADE
@@ -119,7 +119,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <!-- <div class="col-lg-4">
                 <div class="header_banner">
                     <img src="{{ asset('uploads/website/mosaic_banner.jpg') }}" class="img-fluid top_banners">
                     <div class="inner_top_banner m-3">
@@ -128,10 +128,10 @@
                             YOUR SET</button>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
-    <!-- {{-- <section class="featured section-padding position-relative">
+    <!-- {{-- <section class="featured section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
@@ -174,7 +174,7 @@
             </div>
         </section> --}} -->
 
-    <div class="container-fluid mt-4">
+    <article class="container-fluid mt-4 ">
 
         <h5 class="ml-2 fs_14">Our Recommendations</h5>
 
@@ -193,42 +193,42 @@
                     <div class="row">
                         @endif
                         <div class="col-lg-3">
-                            <div class="inner_bag_details">
-                            @php
-                                                        $badges = explode(',', $product->badges);
-                                                        $space = 0;
-                                                    @endphp
-                                                    @foreach ($badges as $badge)
-                                                        @if ($badge == 'Hot')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="hot">Hot</span>
-                                                            </div>
-                                                        @elseif ($badge == 'New')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="new">New</span>
-                                                            </div>
-                                                        @elseif ($badge == 'Best Sell')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="best">Best Sell</span>
-                                                            </div>
-                                                        @elseif ($badge == 'Featured')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="hot">Featured</span>
-                                                            </div>
-                                                        @elseif ($badge == 'Sale')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="sale">Sale</span>
-                                                            </div>
-                                                        @endif
-                                                        @php
-                                                            $space = $space + 9;
-                                                        @endphp
-                                                    @endforeach
+                            <section class="inner_bag_details position-relative">
+                                @php
+                                $badges = explode(',', $product->badges);
+                                $space = 0;
+                                @endphp
+                                @foreach ($badges as $badge)
+                                @if ($badge == 'Hot')
+                                <div class="product-badges product-badges-position product-badges-mrg "
+                                    style="margin-top: {{ $space }}%;">
+                                    <span class="hot inner_card_badge">Hot</span>
+                                </div>
+                                @elseif ($badge == 'New')
+                                <div class="product-badges product-badges-position product-badges-mrg"
+                                    style="margin-top: {{ $space }}%;">
+                                    <span class="new inner_card_badge">New</span>
+                                </div>
+                                @elseif ($badge == 'Best Sell')
+                                <div class="product-badges product-badges-position product-badges-mrg"
+                                    style="margin-top: {{ $space }}%;">
+                                    <span class="best inner_card_badge">Best Sell</span>
+                                </div>
+                                @elseif ($badge == 'Featured')
+                                <div class="product-badges product-badges-position product-badges-mrg"
+                                    style="margin-top: {{ $space }}%;">
+                                    <span class="hot inner_card_badge">Featured</span>
+                                </div>
+                                @elseif ($badge == 'Sale')
+                                <div class="product-badges product-badges-position product-badges-mrg"
+                                    style="margin-top: {{ $space }}%;">
+                                    <span class="sale inner_card_badge">Sale</span>
+                                </div>
+                                @endif
+                                @php
+                                $space = $space + 9;
+                                @endphp
+                                @endforeach
                                 <a href="{{ url('/product-detail/' . $product->id) }}">
                                     @php
                                     $image = explode(',', $product->suppornting_media);
@@ -237,8 +237,6 @@
                                         alt="">
                                 </a>
                                 <div class="product_detail mt-3">
-                                    
-
                                     <h5 class="mb-0" title="{{ $product->title }}">
                                         <a href="{{ url('/product-detail/' . $product->id) }}"
                                             class="text-decoration-none text-dark">{{ $product->title }}</a>
@@ -263,26 +261,22 @@
                                         @endif
                                     </div>
                                 </div>
-                            </div>
-                            <div class="d-flex justify-content-around border mt-2">
+                                <article class="mt-3 buy_product  d-flex">
 
-                                <!-- <a>
-                                    <i class="fa-regular fa-heart"></i>
-                                </a> -->
-                                <a aria-label="Add To Wishlist" class="action-btn hover-up "
-                                                            href="javascript:void(0)"
-                                                            onclick="addToWishlist({{ $product->id }})"><i
-                                                                class="fi-rs-heart"></i></a>
+                                    <button aria-label="Add To Wishlist"
+                                        class="action-btn hover-up  btn btn-primary  d-flex align-items-center justify-content-center h5"
+                                        href="javascript:void(0)" onclick="addToWishlist({{ $product->id }})">Add to
+                                        Wishlist <i class="fi-rs-heart ml-2"></i></button>
 
-                                <!-- <a>
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                </a> -->
-                                <a aria-label="Add To Cart" class="action-btn hover-up"
-                                                            href="javascript:void(0)"
-                                                            onclick="addToCart({{ $product->id }},{{ $price }},1)"><i
-                                                                class="fi-rs-shopping-bag-add"></i></a>
+                                    <button aria-label="Add To Cart"
+                                        class="action-btn hover-up btn btn-dark ml-2 d-flex align-items-center justify-content-center h5"
+                                        href="javascript:void(0)"
+                                        onclick="addToCart({{ $product->id }},{{ $price }},1)">
+                                        Add to Cart<i class="fi-rs-shopping-bag-add ml-2"></i></button>
 
-                            </div>
+                                </article>
+                            </section>
+
                         </div>
                         @php $counter++; @endphp
                         @endforeach
@@ -292,420 +286,11 @@
         </div>
 
 
-        <div class="mt-5">
-            <img src="{{ asset('uploads/website/mid_banner.jpg') }}" alt="mid banner not found" class="img-fluid">
+        <div class="mt-5 d-flex">
+            <img src="{{ asset('uploads/website/443.png') }}" alt="mid banner not found" class="img-fluid w-50">
+            <img src="{{ asset('uploads/website/541.png') }}" alt="mid banner not found" class="img-fluid w-50">
         </div>
-        <!-- I need this section start -->
-        <!-- <section class="product-tabs section-padding position-relative wow fadeIn animated">
-            <div class="bg-square"></div>
-            <div class="container">
-                <div class="tab-header">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="nav-tab-one" data-bs-toggle="tab" data-bs-target="#tab-one"
-                                type="button" role="tab" aria-controls="tab-one" aria-selected="true">Featured</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="nav-tab-two" data-bs-toggle="tab" data-bs-target="#tab-two"
-                                type="button" role="tab" aria-controls="tab-two" aria-selected="false">Popular</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="nav-tab-three" data-bs-toggle="tab" data-bs-target="#tab-three"
-                                type="button" role="tab" aria-controls="tab-three" aria-selected="false">New
-                                added</button>
-                        </li>
-                    </ul>
-                    <a href="{{ url('/shop') }}" class="view-more d-none d-md-flex">View More<i
-                            class="fi-rs-angle-double-small-right"></i></a>
-                </div>
-              
-                <div class="tab-content wow fadeIn animated" id="myTabContent">
-                    <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
-                        <div class="carausel-4-columns-cover position-relative">
-                            <div class="slider-arrow slider-arrow-2 carausel-4-columns-arrow"
-                                id="carausel-4-columns-1-arrows">
-                            </div>
-                            <div class="carausel-4-columns carausel-arrow-center" id="carausel-4-columns-1">
-                                @foreach ($products as $product)
-                                    @if ($product->is_feature == 'Featured')
-                                        <div class="col-lg-3 col-md-4 col-12 col-sm-6 m-2">
-                                            <div class="product-cart-wrap mb-30">
-                                                <div class="product-img-action-wrap">
-                                                    <div class="product-img product-img-zoom">
-                                                        <a href="{{ url('/product-detail/' . $product->id) }}">
-                                                            @php
-                                                                $image = explode(',', $product->suppornting_media);
-                                                            @endphp
-                                                            <img class="default-img"
-                                                                src="{{ asset('uploads/' . $product->main_media) }}"
-                                                                alt="">
-                                                            <img class="hover-img"
-                                                                src="{{ asset('uploads/' . $image[0]) }}" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="product-action-1">
-                                                        <a aria-label="Quick view" class="action-btn hover-up"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#Modal{{ $product->id }}">
-                                                            <i class="fi-rs-eye"></i></a>
-                                                        <a aria-label="Add To Wishlist" class="action-btn hover-up"
-                                                            href="javascript:void(0)"
-                                                            onclick="addToWishlist({{ $product->id }})"><i
-                                                                class="fi-rs-heart"></i></a>
-                                                    </div>
-                                                    @php
-                                                        $badges = explode(',', $product->badges);
-                                                        $space = 0;
-                                                    @endphp
-                                                    @foreach ($badges as $badge)
-                                                        @if ($badge == 'Hot')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="hot">Hot</span>
-                                                            </div>
-                                                        @elseif ($badge == 'New')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="new">New</span>
-                                                            </div>
-                                                        @elseif ($badge == 'Best Sell')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="best">Best Sell</span>
-                                                            </div>
-                                                        @elseif ($badge == 'Featured')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="hot">Featured</span>
-                                                            </div>
-                                                        @elseif ($badge == 'Sale')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="sale">Sale</span>
-                                                            </div>
-                                                        @endif
-                                                        @php
-                                                            $space = $space + 9;
-                                                        @endphp
-                                                    @endforeach
-                                                </div>
-                                                <div class="product-content-wrap">
-                                                    <div class="product-category">
-                                                        <a href="{{ url('/shop') }}">
-                                                            @foreach ($categories as $category)
-                                                                @if ($category->id == $product->cat_id)
-                                                                    {{ $category->category_title }}
-                                                                @endif
-                                                            @endforeach
-                                                        </a>
-                                                    </div>
-                                                    <h2 class="c-text" title="{{ $product->title }}"><a
-                                                            href="{{ url('/product-detail/' . $product->id) }}">{{ $product->title }}</a>
-                                                    </h2>
-                                                    @php
-                                                        $sum_of_rating = \App\Models\Reviews::selectRaw('SUM(rating) as sum')
-                                                            ->where('products_id', '=', $product->id)
-                                                            ->where('status', '=', 'Approved')
-                                                            ->first()->sum;
-                                                    @endphp
-                                                    <div class="rating-result" title="{{ $sum_of_rating / 100 }}%">
-                                                        <span>
-                                                            <span>{{ $sum_of_rating / 100 }}%</span>
-                                                        </span>
-                                                    </div>
-                                                    <div class="product-price">
-                                                        @php
-                                                            $price = 0;
-                                                        @endphp
-                                                        @if ($product->sale_price > 0)
-                                                            <span> {{ currency_converter($product->sale_price) }}</span>
-                                                            <span
-                                                                class="old-price">{{ currency_converter($product->price) }}</span>
-                                                            @php
-                                                                $price = $product->sale_price;
-                                                            @endphp
-                                                        @else
-                                                            <span> {{ currency_converter($product->price) }}</span>
-                                                            @php
-                                                                $price = $product->price;
-                                                            @endphp
-                                                        @endif
-                                                    </div>
-                                                    <div class="product-action-1 show">
-                                                        <a aria-label="Add To Cart" class="action-btn hover-up"
-                                                            href="javascript:void(0)"
-                                                            onclick="addToCart({{ $product->id }},{{ $price }},1)"><i
-                                                                class="fi-rs-shopping-bag-add"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    @endif
-                                @endforeach
-                            </div>
-                        </div>
-                      
-                    </div>
-                  
-                    <div class="tab-pane fade" id="tab-two" role="tabpanel" aria-labelledby="tab-two">
-                        <div class="carausel-4-columns-cover position-relative">
-                            <div class="slider-arrow slider-arrow-2 carausel-4-columns-arrow"
-                                id="carausel-3-columns-1-arrows">
-                            </div>
-                            <div class="carausel-4-columns carausel-arrow-center" id="carausel-3-columns-1">
-                                @foreach ($products as $product)
-                                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                                        <div class="product-cart-wrap mb-30">
-                                            <div class="product-img-action-wrap">
-                                                <div class="product-img product-img-zoom">
-                                                    <a href="{{ url('/product-detail/' . $product->id) }}">
-                                                        @php
-                                                            $image = explode(',', $product->suppornting_media);
-                                                        @endphp
-                                                        <img class="default-img"
-                                                            src="{{ asset('uploads/' . $product->main_media) }}"
-                                                            alt="">
-                                                        <img class="hover-img" src="{{ asset('uploads/' . $image[0]) }}"
-                                                            alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="product-action-1">
-                                                    <a aria-label="Quick view" class="action-btn hover-up"
-                                                        data-bs-toggle="modal"
-                                                        data-bs-target="#Modal{{ $product->id }}">
-                                                        <i class="fi-rs-eye"></i></a>
-                                                    <a aria-label="Add To Wishlist" class="action-btn hover-up"
-                                                        href="javascript:void(0)"
-                                                        onclick="addToWishlist({{ $product->id }})"><i
-                                                            class="fi-rs-heart"></i></a>
-                                                </div>
-                                                @php
-                                                    $badges = explode(',', $product->badges);
-                                                    $space = 0;
-                                                @endphp
-                                                @foreach ($badges as $badge)
-                                                    @if ($badge == 'Hot')
-                                                        <div class="product-badges product-badges-position product-badges-mrg"
-                                                            style="margin-top: {{ $space }}%;">
-                                                            <span class="hot">Hot</span>
-                                                        </div>
-                                                    @elseif ($badge == 'New')
-                                                        <div class="product-badges product-badges-position product-badges-mrg"
-                                                            style="margin-top: {{ $space }}%;">
-                                                            <span class="new">New</span>
-                                                        </div>
-                                                    @elseif ($badge == 'Best Sell')
-                                                        <div class="product-badges product-badges-position product-badges-mrg"
-                                                            style="margin-top: {{ $space }}%;">
-                                                            <span class="best">Best Sell</span>
-                                                        </div>
-                                                    @elseif ($badge == 'Featured')
-                                                        <div class="product-badges product-badges-position product-badges-mrg"
-                                                            style="margin-top: {{ $space }}%;">
-                                                            <span class="hot">Featured</span>
-                                                        </div>
-                                                    @elseif ($badge == 'Sale')
-                                                        <div class="product-badges product-badges-position product-badges-mrg"
-                                                            style="margin-top: {{ $space }}%;">
-                                                            <span class="sale">Sale</span>
-                                                        </div>
-                                                    @endif
-                                                    @php
-                                                        $space = $space + 9;
-                                                    @endphp
-                                                @endforeach
-                                            </div>
-                                            <div class="product-content-wrap">
-                                                <div class="product-category">
-                                                    <a href="{{ url('/shop') }}">
-                                                        @foreach ($categories as $category)
-                                                            @if ($category->id == $product->cat_id)
-                                                                {{ $category->category_title }}
-                                                            @endif
-                                                        @endforeach
-                                                    </a>
-                                                </div>
-                                                <h2 class="c-text" title="{{ $product->title }}">
-                                                    <a
-                                                        href="{{ url('/product-detail/' . $product->id) }}">{{ $product->title }}</a>
-                                                </h2>
-                                                @php
-                                                    $sum_of_rating = \App\Models\Reviews::selectRaw('SUM(rating) as sum')
-                                                        ->where('products_id', '=', $product->id)
-                                                        ->where('status', '=', 'Approved')
-                                                        ->first()->sum;
-                                                @endphp
-                                                <div class="rating-result" title="{{ $sum_of_rating / 100 }}%">
-                                                    <span>
-                                                        <span>{{ $sum_of_rating / 100 }}%</span>
-                                                    </span>
-                                                </div>
-                                                <div class="product-price">
-                                                    @php
-                                                        $price = 0;
-                                                    @endphp
-                                                    @if ($product->sale_price > 0)
-                                                        <span> {{ currency_converter($product->sale_price) }}</span>
-                                                        <span
-                                                            class="old-price">{{ currency_converter($product->price) }}</span>
-                                                        @php
-                                                            $price = $product->sale_price;
-                                                        @endphp
-                                                    @else
-                                                        <span> {{ currency_converter($product->price) }}</span>
-                                                        @php
-                                                            $price = $product->price;
-                                                        @endphp
-                                                    @endif
-                                                </div>
-                                                <div class="product-action-1 show">
-                                                    <a aria-label="Add To Cart" class="action-btn hover-up"
-                                                        href="javascript:void(0)"
-                                                        onclick="addToCart({{ $product->id }},{{ $price }},1)"><i
-                                                            class="fi-rs-shopping-bag-add"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                @endforeach
-                            </div>
-                        </div>
-                      
-                    </div>
-                   
-                    <div class="tab-pane fade" id="tab-three" role="tabpanel" aria-labelledby="tab-three">
-                        <div class="carausel-4-columns-cover position-relative">
-                            <div class="slider-arrow slider-arrow-2 carausel-4-columns-arrow"
-                                id="carausel-2-columns-1-arrows">
-                            </div>
-                            <div class="carausel-4-columns carausel-arrow-center" id="carausel-2-columns-1">
-                                @foreach ($products as $product)
-                                    @if ($product->new_added == 'Yes')
-                                        <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                                            <div class="product-cart-wrap mb-30">
-                                                <div class="product-img-action-wrap">
-                                                    <div class="product-img product-img-zoom">
-                                                        <a href="{{ url('/product-detail/' . $product->id) }}">
-                                                            @php
-                                                                $image = explode(',', $product->suppornting_media);
-                                                            @endphp
-                                                            <img class="default-img"
-                                                                src="{{ asset('uploads/' . $product->main_media) }}"
-                                                                alt="">
-                                                            <img class="hover-img"
-                                                                src="{{ asset('uploads/' . $image[0]) }}" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <div class="product-action-1">
-                                                        <a aria-label="Quick view" class="action-btn hover-up"
-                                                            data-bs-toggle="modal"
-                                                            data-bs-target="#Modal{{ $product->id }}">
-                                                            <i class="fi-rs-eye"></i></a>
-                                                        <a aria-label="Add To Wishlist" class="action-btn hover-up"
-                                                            href="javascript:void(0)"
-                                                            onclick="addToWishlist({{ $product->id }})"><i
-                                                                class="fi-rs-heart"></i></a>
-                                                    </div>
-                                                    @php
-                                                        $badges = explode(',', $product->badges);
-                                                        $space = 0;
-                                                    @endphp
-                                                    @foreach ($badges as $badge)
-                                                        @if ($badge == 'Hot')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="hot">Hot</span>
-                                                            </div>
-                                                        @elseif ($badge == 'New')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="new">New</span>
-                                                            </div>
-                                                        @elseif ($badge == 'Best Sell')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="best">Best Sell</span>
-                                                            </div>
-                                                        @elseif ($badge == 'Featured')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="hot">Featured</span>
-                                                            </div>
-                                                        @elseif ($badge == 'Sale')
-                                                            <div class="product-badges product-badges-position product-badges-mrg"
-                                                                style="margin-top: {{ $space }}%;">
-                                                                <span class="sale">Sale</span>
-                                                            </div>
-                                                        @endif
-                                                        @php
-                                                            $space = $space + 9;
-                                                        @endphp
-                                                    @endforeach
-                                                </div>
-                                                <div class="product-content-wrap">
-                                                    <div class="product-category">
-                                                        <a href="{{ url('/shop') }}">
-                                                            @foreach ($categories as $category)
-                                                                @if ($category->id == $product->cat_id)
-                                                                    {{ $category->category_title }}
-                                                                @endif
-                                                            @endforeach
-                                                        </a>
-                                                    </div>
-                                                    <h2 class="c-text" title="{{ $product->title }}">
-                                                        <a
-                                                            href="{{ url('/product-detail/' . $product->id) }}">{{ $product->title }}</a>
-                                                    </h2>
-                                                    @php
-                                                        $sum_of_rating = \App\Models\Reviews::selectRaw('SUM(rating) as sum')
-                                                            ->where('products_id', '=', $product->id)
-                                                            ->where('status', '=', 'Approved')
-                                                            ->first()->sum;
-                                                    @endphp
-                                                    <div class="rating-result" title="{{ $sum_of_rating / 100 }}%">
-                                                        <span>
-                                                            <span>{{ $sum_of_rating / 100 }}%</span>
-                                                        </span>
-                                                    </div>
-                                                    <div class="product-price">
-                                                        @php
-                                                            $price = 0;
-                                                        @endphp
-                                                        @if ($product->sale_price > 0)
-                                                            <span> {{ currency_converter($product->sale_price) }}</span>
-                                                            <span
-                                                                class="old-price">{{ currency_converter($product->price) }}</span>
-                                                            @php
-                                                                $price = $product->sale_price;
-                                                            @endphp
-                                                        @else
-                                                            <span> {{ currency_converter($product->price) }}</span>
-                                                            @php
-                                                                $price = $product->price;
-                                                            @endphp
-                                                        @endif
-                                                    </div>
-                                                    <div class="product-action-1 show">
-                                                        <a aria-label="Add To Cart" class="action-btn hover-up"
-                                                            href="javascript:void(0)"
-                                                            onclick="addToCart({{ $product->id }},{{ $price }},1)"><i
-                                                                class="fi-rs-shopping-bag-add"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    @endif
-                                @endforeach
-                            </div>
-                        </div>
-                      
-                    </div>
-                    
-                </div>
-                
-            </div>
-        </section> -->
-        <!-- I need this section start -->
+
 
         <div class="container-fluid mt-5">
             <h5 class="fs_14">SHOP YOUR FAVOURITE STYLES</h5>
@@ -768,7 +353,7 @@
             </div>
         </div>
 
-    </div>
+    </article>
     <script>
     $(document).ready(function() {
         // Set the carousel to loop automatically
@@ -844,7 +429,7 @@
     <!-- <section class="popular-categories section-padding mt-15 mb-25">
             <div class="container wow fadeIn animated">
                 <h3 class="section-title mb-20"><span>Popular</span> Categories</h3>
-                <div class="carausel-6-columns-cover position-relative">
+                <div class="carausel-6-columns-cover">
                     <div class="slider-arrow slider-arrow-2 carausel-6-columns-arrow" id="carausel-6-columns-arrows">
                     </div>
                     <div class="carausel-6-columns" id="carausel-6-columns">
@@ -899,7 +484,7 @@
     <!-- <section class="section-padding">
             <div class="container wow fadeIn animated">
                 <h3 class="section-title mb-20"><span>New</span> Arrivals</h3>
-                <div class="carausel-6-columns-cover position-relative">
+                <div class="carausel-6-columns-cover">
                     <div class="slider-arrow slider-arrow-2 carausel-6-columns-arrow" id="carausel-6-columns-2-arrows">
                     </div>
                     <div class="carausel-6-columns carausel-arrow-center" id="carausel-6-columns-2">
@@ -993,7 +578,7 @@
     <!-- {{-- <section class="section-padding">
             <div class="container">
                 <h3 class="section-title mb-20 wow fadeIn animated"><span>Featured</span> Brands</h3>
-                <div class="carausel-6-columns-cover position-relative wow fadeIn animated">
+                <div class="carausel-6-columns-cover wow fadeIn animated">
                     <div class="slider-arrow slider-arrow-2 carausel-6-columns-arrow" id="carausel-6-columns-3-arrows">
                     </div>
                     <div class="carausel-6-columns text-center" id="carausel-6-columns-3">

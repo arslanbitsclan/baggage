@@ -2618,7 +2618,7 @@ h5 a {
 
 .page-header.breadcrumb-wrap {
     padding: 20px;
-    background-color: #f7f8f9;
+    background-color: transparent;
 }
 
 .page-header .breadcrumb {
@@ -3819,8 +3819,8 @@ table .product-thumbnail img {
 
 .product-cart-wrap .product-content-wrap .product-price span.old-price {
     font-size: 14px;
-    font-weight: 400;
-    color: #90908e;
+    font-weight: 700;
+    color: red;
     margin: 0 0 0 7px;
     text-decoration: line-through;
 }
@@ -4767,7 +4767,7 @@ table .product-thumbnail img {
 }
 
 .detail-gallery .slick-slider {
-    background-color: #000;
+    background-color: transparent;
     margin-bottom: 30px;
     border-radius: 10px;
 }
@@ -11018,11 +11018,8 @@ body {
 }
 
 .navbar-nav .dropdown-menu {
-   
     width: 100%;
 }
-
-
 
 .dropdown_region {
     font-size: 25px;
@@ -11034,13 +11031,12 @@ body {
 .dropdown-menu {
     width: max-content;
     padding: 20px;
-   
 }
 
 .dropdown-item {
     font-size: 14px;
     padding-left: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .w_440 {
@@ -11079,5 +11075,26 @@ body {
 
 .hidden-uk-dropdown {
     visibility: hidden;
-  }
+}
+.inner_card_badge {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    background-color: #000;
+    border-radius: 15px !important;
+    padding: 0px 12px 0px 12px !important;
+    font-weight: 700 !important;
+}
+.buy_product {
+    visibility: hidden !important;
+}
+.inner_bag_details:hover .buy_product {
+    visibility: visible !important;
+    transition: 1s !important;
+    transition-delay: 0.3s !important;
+}
+.detail-gallery .slick-slider {
+    background-color: transparent !important;
+}
 /* Baggage code end  */
