@@ -52,7 +52,6 @@
         </div>
 
     </div>
-    <!-- <section class="newsletter p-30 text-white wow fadeIn animated"> -->
 
 
     <div class="py-5" style="background-color: #F8F8F8;">
@@ -72,64 +71,8 @@
         </div>
 
     </div>
-    <!-- </section> -->
+   
     <section class="section-padding footer-mid">
-        <!-- <div class="container pt-15 pb-20">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="widget-about font-md mb-md-5 mb-lg-0">
-                        <div class="logo logo-width-1 wow fadeIn animated">
-                            <a href="index.html"><img src="{{ asset('uploads/website/baggageLogo.jpeg') }}" alt="logo"></a>
-                        </div>
-                        <h5 class="mt-20 mb-10 fw-600 text-grey-4 wow fadeIn animated">Contact</h5>
-                        <p class="wow fadeIn animated">
-                            <strong>Mail: </strong><a href="mailto:m.arslan77733@gmail.com">sales@baggagefactory.co.uk</a>
-                        </p>
-                        <p class="wow fadeIn animated">
-                            <strong>Opening Hours: </strong>9:00 AM - 5:00 PM,
-                        </p>
-                        <h5 class="mb-10 mt-30 fw-600 text-grey-4 wow fadeIn animated">Follow Us</h5>
-                        <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0">
-                            <a href="#"><img src="{{ asset('assets/imgs/theme/icons/icon-facebook.svg') }}"
-                                    alt=""></a>
-                            <a href="#"><img src="{{ asset('assets/imgs/theme/icons/icon-twitter.svg') }}"
-                                    alt=""></a>
-                            <a href="#"><img src="{{ asset('assets/imgs/theme/icons/icon-instagram.svg') }}"
-                                    alt=""></a>
-                            <a href="#"><img src="{{ asset('assets/imgs/theme/icons/icon-pinterest.svg') }}"
-                                    alt=""></a>
-                            <a href="#"><img src="{{ asset('assets/imgs/theme/icons/icon-youtube.svg') }}"
-                                    alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3">
-                    <h5 class="widget-title wow fadeIn animated">About</h5>
-                    <ul class="footer-list wow fadeIn animated mb-sm-5 mb-md-0">
-                        <li><a href="{{ url('/about') }}">About Us</a></li>                        
-                        <li><a href="{{ url('/privacy-policy') }}">Privacy Policy</a></li>
-                        <li><a href="{{ url('/terms&conditions') }}">Terms &amp; Conditions</a></li>
-                        <li><a href="{{ url('/contact') }}">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2  col-md-3">
-                    <h5 class="widget-title wow fadeIn animated">My Account</h5>
-                    <ul class="footer-list wow fadeIn animated">
-                        @if (!session()->has('customer'))
-                            <li><a href="{{ url('/loginPage') }}">Sign In</a></li>
-                        @endif
-                        <li><a href="{{ url('/cart') }}">View Cart</a></li>
-                        <li><a href="{{ url('/wishlist') }}">My Wishlist</a></li>
-                        <li><a href="{{ url('/order-tracking') }}">Track My Order</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <h5 class="widget-title wow fadeIn animated">Secured Payment Gateways</h5>
-                    <img class="wow fadeIn animated" src="{{ asset('assets/imgs/theme/payment-method.png') }}"
-                        alt="">
-                </div>
-            </div>
-        </div> -->
         <div class="bg_black footer_main">
             <div class=" container  py-4">
                 <div class="row">
@@ -137,9 +80,6 @@
                         <h6 class="text-secondary">NEAREST OFFICIAL Baggage Factory STORES</h6>
                         <ul class="p-0 footer_ul">
                             <li><u> <a href="#" class="footer_navlinks">Find a store</a></u></li>
-                            <!-- <li> <a href="#" class="footer_navlinks">Nav Links</a></li>
-                        <li> <a href="#" class="footer_navlinks">Nav Links</a></li>
-                        <li> <a href="#" class="footer_navlinks">Nav Links</a></li> -->
                         </ul>
 
                     </div>
@@ -215,47 +155,13 @@
 
             </div>
         </div>
-
-        <!-- <div class="container pb-20 wow fadeIn animated ">
-        <div class="row">
-            <div class="col-12 mb-20">
-                <div class="footer-bottom"></div>
-            </div>
-            <div class="col-lg-6">
-                <p class="float-md-left font-sm text-muted mb-0">&copy; 2023, <strong class="footer_navlinks">Baggage
-                    Factory</strong></p>
-            </div>
-            <div class="col-lg-6">
-                <p class="text-lg-end text-start  font-sm text-muted mb-0">
-                    Powered by <a href="" target="_blank">Arslan</a>. All rights
-                    reserved
-                </p>
-            </div>
-        </div>
-    </div> -->
     </section>
     <div class="copywt p-4 text-white text-center">
         Copyright © 2023 Baggage Factory. All rights reserved. Visit our corporate site for more information. Baggage
         Factory and
         the Baggage Factory logo are registered trademarks of Baggage Factory IP Holdings S.àr.l.
     </div>
-    <!-- <div class="container pb-20 wow fadeIn animated">
-        <div class="row">
-            <div class="col-12 mb-20">
-                <div class="footer-bottom"></div>
-            </div>
-            <div class="col-lg-6">
-                <p class="float-md-left font-sm text-muted mb-0">&copy; 2023, <strong class="text-brand">Baggage
-                    Factory</strong></p>
-            </div>
-            <div class="col-lg-6">
-                <p class="text-lg-end text-start font-sm text-muted mb-0">
-                    Powered by <a href="" target="_blank">Arslan</a>. All rights
-                    reserved
-                </p>
-            </div>
-        </div>
-    </div> -->
+ 
 
 </footer>
 <!-- Preloader Start -->
@@ -295,20 +201,12 @@
 <script src="{{ asset('assets/js/plugins/jquery.theia.sticky.js') }}"></script>
 <script src="{{ asset('assets/js/plugins/jquery.elevatezoom.js') }}"></script>
 
-
-
-<!-- Baggage code start -->
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
 </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
 </script>
-<!-- Baggage code end -->
-
 
 <!-- Template  JS -->
 <script src="{{ asset('assets/js/main.js') }}"></script>
