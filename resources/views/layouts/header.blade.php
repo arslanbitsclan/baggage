@@ -55,7 +55,7 @@
     </div>
 
     <div class="text-center Samsonite_logo">
-        <div class="container-fluid  d-flex align-items-center">
+        <div class="container-fluid  d-flex align-items-center justify-content-between">
 
             <div class="dropdown show hidden-uk-dropdown">
                 <a class="btn btn-secondary dropdown-toggle border-0 bg-transparent text-dark ml-3" href="#"
@@ -133,7 +133,15 @@
             </div>
             <a><img src="{{ asset('uploads/website/logo.jpeg') }}" class="img-fluid mb-2 logo"
                     style="width: 20%;" /></a>
-
+            <div>
+                <a href="#" class="text-decoration-none text-dark">
+                    <i class="fa-solid fa-map-pin mr-1"></i>
+                    <span>Store</span>
+                </a>
+                <a>
+                    <i class="fa-regular fa-user mx-3">
+                    </i></a>
+            </div>
         </div>
         <h5 class="mb-2 mt-2 gradient-text">WELCOME TO THE WORLD OF BAGS</h5>
     </div>
