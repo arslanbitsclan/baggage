@@ -29,13 +29,13 @@
 @endpush
 @section('section')
 <main class="main">
-   
+
     <div class="my-4 container-fluid">
         <div class="row">
             <div class="col-lg-12 p-0">
                 <div class="header_banner">
                     <img src="{{ asset('uploads/website/431.png') }}" class="img-fluid w-100 h-100 top_banners">
-                    <div class="inner_top_banner m-3">
+                    <div class="inner_top_banner m-5">
                         <button
                             class="btn btn-info rounded-1 text-dark bg-white border-0 font-weight-bold px-4 py-3 banner_button">UPGRADE
                             YOUR
@@ -107,7 +107,7 @@
                                     @php
                                     $image = explode(',', $product->suppornting_media);
                                     @endphp
-                                    <img class="img-fluid w-100" src="{{ asset('uploads/' . $product->main_media) }}"
+                                    <img class="product_images " src="{{ asset('uploads/' . $product->main_media) }}"
                                         alt="">
                                 </a>
                                 <div class="product_detail mt-3">

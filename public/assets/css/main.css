@@ -11097,4 +11097,32 @@ body {
 .detail-gallery .slick-slider {
     background-color: transparent !important;
 }
-/* Baggage code end  */
+.product_images {
+    height: 250px !important;
+    width: 250px !important;
+}
+.gradient-text {
+    font-family: "Abril Fatface", sans-serif;
+    background: linear-gradient(to right, crimson, red, blue);
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 1);
+    transition: color 0.2s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.gradient-text:hover {
+    color: rgba(0, 0, 0, 0);
+}
+@keyframes rainbow {
+    0% {
+        background-position: left;
+    }
+    50% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
+}
