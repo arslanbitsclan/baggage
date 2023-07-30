@@ -21,6 +21,48 @@ use Illuminate\Support\Facades\DB;
 
 class MainController extends Controller
 {
+
+
+    public function organizationChart()
+    {
+
+        $wishlist = 0;
+        $cart = 0;
+        if ($this->get_cart() > 0) {
+            $cart = $this->get_cart();
+        }
+        if ($this->get_wishlist() > 0) {
+            $wishlist = $this->get_wishlist();
+        }
+        $categories = CategoriesModel::where('category_action', '=', 'Enable')->where('status', '=', 'Active')->get();
+        foreach ($categories as $category) {
+            $sub_categories[$category->id] = SubCategoriesModel::where('cat_id', '=', $category->id)->where('sub_category_action', '=', 'Enable')->where('status', '=', 'Active')->get();
+        }
+        $active = "";
+        $data = compact('active', 'categories', 'sub_categories', 'wishlist', 'cart');
+        return view('organizationChart')->with($data);
+    }
+
+    public function locator()
+    {
+        $wishlist = 0;
+        $cart = 0;
+        if ($this->get_cart() > 0) {
+            $cart = $this->get_cart();
+        }
+        if ($this->get_wishlist() > 0) {
+            $wishlist = $this->get_wishlist();
+        }
+        $categories = CategoriesModel::where('category_action', '=', 'Enable')->where('status', '=', 'Active')->get();
+        foreach ($categories as $category) {
+            $sub_categories[$category->id] = SubCategoriesModel::where('cat_id', '=', $category->id)->where('sub_category_action', '=', 'Enable')->where('status', '=', 'Active')->get();
+        }
+        $active = "";
+        $data = compact('active', 'categories', 'sub_categories', 'wishlist', 'cart');
+        return view('locator')->with($data);
+    }
+
+
     public function home()
     {
         $wishlist = 0;

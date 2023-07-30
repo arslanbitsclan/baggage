@@ -186,6 +186,9 @@ Route::group(['middleware' => 'preventBack'], function () {
 // Frontend Routes
 Route::get('/old', [MainController::class, 'old']);
 
+Route::get('organization_chart', [MainController::class, 'organizationChart']);
+Route::get('locator', [MainController::class, 'locator']);
+
 Route::get('/', [MainController::class, 'home']);
 Route::get('/about', [MainController::class, 'about']);
 Route::get('/shop', [MainController::class, 'shop']);
