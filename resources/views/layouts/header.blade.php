@@ -54,15 +54,22 @@
         </div>
     </div>
 
+
+  
     <div class="text-center Samsonite_logo">
         <div class="container-fluid  d-flex align-items-center justify-content-between">
-
-            <div class="dropdown show hidden-uk-dropdown">
-                <a class="btn btn-secondary dropdown-toggle border-0 bg-transparent text-dark ml-3" href="#"
-                    role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    United Kingdom
-                </a>
+        <div>
+            <a href="{{ url('/organization_chart') }}" class="text-decoration-none text-dark">
+                <i class="fa-solid fa-sitemap mr-1"></i>
+                    <span>Our Team</span>
+            </a>
+        </div>
+    <div class="dropdown show hidden-uk-dropdown">
+        <a class="btn btn-secondary dropdown-toggle border-0 bg-transparent text-dark ml-3" href="#"
+            role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            United Kingdom
+        </a>
 
                 <div class="dropdown-menu text-start p-4" aria-labelledby="dropdownMenuLink">
                     <div class="d-flex header_dropdown_main">
@@ -132,11 +139,11 @@
 
             </div>
             <a><img src="{{ asset('uploads/website/logo.jpeg') }}" class="img-fluid mb-2 logo"
-                    style="width: 20%;" /></a>
+                    style="width: 30%;  margin-left: -318px;" /></a>
             <div>
-                <a href="#" class="text-decoration-none text-dark">
+                <a href="{{ url('/locator') }}" class="text-decoration-none text-dark">
                     <i class="fa-solid fa-map-pin mr-1"></i>
-                    <span>Store</span>
+                    <span>Stores</span>
                 </a>
                 <a>
                     <i class="fa-regular fa-user mx-3">

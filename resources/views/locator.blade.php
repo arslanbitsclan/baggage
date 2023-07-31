@@ -6,7 +6,7 @@
 <main>
 
     <div class="container">
-        <h1 class="mb-0 mt-3">Our Locations</h1>
+        <h1 class="mb-0 mt-3">Our Stores</h1>
         <div class="row">
             <div class="col-lg-6 py-4">
                 <div class="inner_location d-flex justify-content-between ">
