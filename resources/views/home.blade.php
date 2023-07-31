@@ -243,11 +243,14 @@
         <div class="mt-5">
             <img src="{{ asset('uploads/website/emboss.jpg') }}" alt="emboss image" class="img-fluid">
         </div>
-        <div class="container-fluid mt-5 d-flex justify-content-between">
-            <video width="400" height="400" controls>
+        <div class="container-fluid mt-5 d-flex ">
+            <video width="50%" height="368" controls>
                 <source src="movie.mp4" type="video/mp4">
             </video>
-            <img src="{{ asset('uploads/website/fav_style.jpg') }}" alt="emboss image" class=" w-25 float-right">
+            <div class="w-50 pl-2">
+                <img src="{{ asset('uploads/website/541.png') }}" alt="emboss image">
+            </div>
+
         </div>
     </section>
 </main>

@@ -71,7 +71,7 @@
         </div>
 
     </div>
-   
+
     <section class="section-padding footer-mid">
         <div class="bg_black footer_main">
             <div class=" container  py-4">
@@ -132,23 +132,23 @@
                         <h3 class="text-white">Our Partner</h3>
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
-                        <img src="{{ asset('uploads/website/amto.png') }}" class="img-fluid w-100">
+                        <img src="{{ asset('uploads/website/1.png') }}" class="img-fluid w-100">
                         <img src="{{ asset('uploads/website/amto-product.png') }}" class="img-fluid w-100">
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
-                        <img src="{{ asset('uploads/website/gregory.png') }}" class="img-fluid w-100">
+                        <img src="{{ asset('uploads/website/2.png') }}" class="img-fluid w-100">
                         <img src="{{ asset('uploads/website/gregory-product.png') }}" class="img-fluid w-100">
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
-                        <img src="{{ asset('uploads/website/lipault.png') }}" class="img-fluid w-100">
+                        <img src="{{ asset('uploads/website/3.png') }}" class="img-fluid w-100">
                         <img src="{{ asset('uploads/website/lipault-product.png') }}" class="img-fluid w-100">
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
-                        <img src="{{ asset('uploads/website/tumi.png') }}" class="img-fluid w-100">
+                        <img src="{{ asset('uploads/website/4.png') }}" class="img-fluid w-100">
                         <img src="{{ asset('uploads/website/tumi-product.png') }}" class="img-fluid w-100">
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
-                        <img src="{{ asset('uploads/website/rolling-luggage.png') }}" class="img-fluid w-100">
+                        <img src="{{ asset('uploads/website/5.png') }}" class="img-fluid w-100">
                         <img src="{{ asset('uploads/website/rolling-luggage-product.png') }}" class="img-fluid w-100">
                     </div>
                 </div>
@@ -161,7 +161,7 @@
         Factory and
         the Baggage Factory logo are registered trademarks of Baggage Factory IP Holdings S.àr.l.
     </div>
- 
+
 
 </footer>
 <!-- Preloader Start -->
