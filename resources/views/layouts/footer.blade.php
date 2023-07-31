@@ -133,23 +133,23 @@
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
                         <img src="{{ asset('uploads/website/1.png') }}" class="img-fluid w-100">
-                        <img src="{{ asset('uploads/website/amto-product.png') }}" class="img-fluid w-100">
+
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
                         <img src="{{ asset('uploads/website/2.png') }}" class="img-fluid w-100">
-                        <img src="{{ asset('uploads/website/gregory-product.png') }}" class="img-fluid w-100">
+
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
                         <img src="{{ asset('uploads/website/3.png') }}" class="img-fluid w-100">
-                        <img src="{{ asset('uploads/website/lipault-product.png') }}" class="img-fluid w-100">
+
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
                         <img src="{{ asset('uploads/website/4.png') }}" class="img-fluid w-100">
-                        <img src="{{ asset('uploads/website/tumi-product.png') }}" class="img-fluid w-100">
+
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
                         <img src="{{ asset('uploads/website/5.png') }}" class="img-fluid w-100">
-                        <img src="{{ asset('uploads/website/rolling-luggage-product.png') }}" class="img-fluid w-100">
+
                     </div>
                 </div>
 

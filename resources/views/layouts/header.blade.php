@@ -40,36 +40,26 @@
 
 <body>
 
-    <div class="container-fluid bg_black text-center top_navigation">
-        <div class="row p-3">
-            <div class="col-sm text-white">
-                Free delivery starting from £100
-            </div>
-            <div class="col-sm text-white">
-                BOOK A VIDEO CHAT
-            </div>
-            <div class="col-sm text-white">
-                <i class="fa-light fa-lock-hashtag"></i> Secure Payment
-            </div>
-        </div>
+    <div class="container-fluid bg_black top_navigation " style="height: 50px;">
+        <h3 class="top_moving_text text-white mb-0 p-2">Welcome To the World of Bags</h3>
     </div>
 
 
-  
+
     <div class="text-center Samsonite_logo">
         <div class="container-fluid  d-flex align-items-center justify-content-between">
-        <div>
-            <a href="{{ url('/organization_chart') }}" class="text-decoration-none text-dark">
-                <i class="fa-solid fa-sitemap mr-1"></i>
-                    <span>Our Team</span>
-            </a>
-        </div>
-    <div class="dropdown show hidden-uk-dropdown">
-        <a class="btn btn-secondary dropdown-toggle border-0 bg-transparent text-dark ml-3" href="#"
-            role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            United Kingdom
-        </a>
+            <div>
+                <a href="{{ url('/organization_chart') }}" class="text-decoration-none text-dark">
+                    <i class="fa-solid fa-sitemap mr-1"></i>
+                    <span>Organization Chart</span>
+                </a>
+            </div>
+            <div class="dropdown show hidden-uk-dropdown">
+                <a class="btn btn-secondary dropdown-toggle border-0 bg-transparent text-dark ml-3" href="#"
+                    role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    United Kingdom
+                </a>
 
                 <div class="dropdown-menu text-start p-4" aria-labelledby="dropdownMenuLink">
                     <div class="d-flex header_dropdown_main">

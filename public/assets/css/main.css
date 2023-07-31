@@ -11126,3 +11126,19 @@ body {
         background-position: left;
     }
 }
+.top_navigation {
+    position: relative;
+}
+.top_moving_text {
+    position: absolute;
+    animation: mymove 5s infinite;
+    animation-direction: alternate;
+}
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 815px;
+    }
+}
