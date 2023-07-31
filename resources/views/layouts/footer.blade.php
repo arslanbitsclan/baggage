@@ -136,7 +136,7 @@
                         <img src="{{ asset('uploads/website/amto-product.png') }}" class="img-fluid w-100">
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
-                        <img src="{{ asset('uploads/website/maxresdefault.jpg') }}" class="img-fluid w-100">
+                        <img src="{{ asset('uploads/website/2.png') }}" class="img-fluid w-100">
                         <img src="{{ asset('uploads/website/gregory-product.png') }}" class="img-fluid w-100">
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 my-3">
