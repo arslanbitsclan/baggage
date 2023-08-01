@@ -160,10 +160,41 @@
         </div>
 
 
-        <div class="mt-5 d-flex">
-            <img src="{{ asset('uploads/website/443.png') }}" alt="mid banner not found" class="img-fluid w-50">
-            <img src="{{ asset('uploads/website/541.png') }}" alt="mid banner not found" class="img-fluid w-50">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="mt-5 d-flex">
+                        <img src="{{ asset('uploads/website/443.png') }}" alt="mid banner not found"
+                            class="img-fluid w-50">
+                        <img src="{{ asset('uploads/website/379.png') }}" alt="mid banner not found"
+                            class="img-fluid w-50">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="mt-5 d-flex">
+                        <img src="{{ asset('uploads/website/541.png') }}" alt="mid banner not found"
+                            class="img-fluid w-50">
+                        <img src="{{ asset('uploads/website/683.png') }}" alt="mid banner not found"
+                            class="img-fluid w-50">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
+
+
 
 
         <div class="container-fluid mt-5">
@@ -239,18 +270,16 @@
     </script>
 
 
-    <section class="mb-50">
-        <div class="mt-5">
-            <img src="{{ asset('uploads/website/emboss.jpg') }}" alt="emboss image" class="img-fluid">
-        </div>
-        <div class="container-fluid mt-5 d-flex ">
-            <video width="50%" height="368" controls>
-                <source src="movie.mp4" type="video/mp4">
-            </video>
-            <div class="w-50 pl-2">
-                <img src="{{ asset('uploads/website/541.png') }}" alt="emboss image">
+    <section class="mb-50 container-fluid mt-5">
+        <div class="row">
+            <div class="col-lg-8 p-0">
+                <img src="{{ asset('uploads/website/emboss.jpg') }}" alt="emboss image" class="img-fluid">
             </div>
-
+            <div class="col-lg-4 p-0">
+                <video width="450" height="281" controls>
+                    <source src="{{ asset('uploads/website/clip.mp4') }}" type="video/mp4">
+                </video>
+            </div>
         </div>
     </section>
 </main>

@@ -11132,13 +11132,12 @@ body {
 .top_moving_text {
     position: absolute;
     animation: mymove 5s infinite;
-    animation-direction: alternate;
 }
 @keyframes mymove {
     from {
-        left: 0px;
+        transform: translateX(-100%);
     }
     to {
-        left: 815px;
+        transform: translateX(850px);
     }
 }
