@@ -23,7 +23,7 @@
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>0127 699 996</div>
 
                         <button class="btn btn-outline-secondary font-weight-bold btn-sm  p-2 rounded-0">
-                            View Full Store Details
+                            Store Details
                         </button>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01259 928 400</div>
 
                         <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
-                            View Full Store Details
+                             Store Details
                         </button>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01782 657 392</div>
 
                         <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
-                            View Full Store Details
+                             Store Details
                         </button>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01634 892 738</div>
 
                         <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
-                            View Full Store Details
+                             Store Details
                         </button>
                     </div>
                 </div>
@@ -102,17 +102,318 @@
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01629 735 777</div>
 
                         <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
-                            View Full Store Details
+                             Store Details
                         </button>
                     </div>
                 </div>
             </div>
 
 
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Brighton.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                            Dalton Park
+                        </h6>
+                        <p class="w-75">Unit 43, Dalton Park, Murton, County Durham, SR7 9HU </p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>0191 447 0140</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                            Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Sterling.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        DONCASTER
+                        </h6>
+                        <p class="w-75">Unit 52, Lakeside Village outlet centre, White Rose Way, Doncaster, North Yorkshire   DN4 5PH </p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01302 618150</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Trentham.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        FLEETWOOD
+                        </h6>
+                        <p class="w-75">Unit 10 B, Affinity Outlet Village, Anchorage Road, Fleetwood, Lancashire, FY7 6AE </p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01253932660</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Chathem.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        GALLERIA
+                        </h6>
+                        <p class="w-75">Unit 37,Comet Way,The Galleria, Hatfield, AL10 0YB  </p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01707 257 779</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/PV.png') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        JUNCTION 32
+                        </h6>
+                        <p class="w-75">Unit F5, Junction 32, Tomahawk Trail,Castleford,West Yorkshire WF10 4FR </p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01977 279 696</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Brighton.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        MANCHESTER
+                        </h6>
+                        <p class="w-75">Unit G3 Quaysid MdiaCity, The Quays, Salford, M50 3AG </p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>0161 222 9360</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Sterling.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        BARNET (Franchise)
+                        </h6>
+                        <p class="w-75">Unit 3-4, The Spires, High Street, Barnet, EN5 5XY </p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>0208 364 8076</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Trentham.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        BASILDON (Franchise)
+                        </h6>
+                        <p class="w-75">Unit 86, Upper Level,Eastgate Shopping Centre, Basildon </p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01268 522 704</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                            Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Chathem.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        GLOUCESTER (Franchise)
+                        </h6>
+                        <p class="w-75">Unit 64 Gloucester Quays Oulet Centre Gloucester, GL1 5SH </p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01452 681 527</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/PV.png') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        HEMEL HEMPSTEAD (Franchise)
+                        </h6>
+                        <p class="w-75">Unit  16, The Marlowes Shopping Centre, Hemel Hempstead, HP1 1DX </p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01442 246 443</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Brighton.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        HUDDERSFIELD (Franchise)
+                        </h6>
+                        <p class="w-75">Unit 37, Kingsgate Centre, King Street, Huddersfield, HD1 2QB</p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01484 768820</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Sterling.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        LAKESIDE (Franchise)
+                        </h6>
+                        <p class="w-75">Unit 271 Lakeside Shopping Centre, Grays, RM20 2ZN</p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01708 607 755</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Trentham.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        SOUTHEND (Franchise)
+                        </h6>
+                        <p class="w-75">Unit 19, Royals Shopping centre, Southend on Sea, SS1 1DG</p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i> 01702 617797</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/Chathem.jpg') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        STEVENAGE (Franchise)
+                        </h6>
+                        <p class="w-75">Unit 10, West Gate, Stevenage, Hetfordshire, SG1 1QR</p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i> 01438 488 385</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="d-flex">
+                    <img src="{{ asset('uploads/website/PV.png') }}" class="img-fluid w-50">
+                    <div class="ml-4">
+                        <h6 class="mb-0">
+                        SWINDON (Franchise)
+                        </h6>
+                        <p class="w-75">3 McAurthur Glen Western Designer Outlet Village Kemble Drive Swindon  SN2 2DY</p>
+                        <div class="mb-2"> <i
+                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+
+                        <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i> 01438 488 385</div>
+
+                        <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
+                             Store Details
+                        </button>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <div class="row">
-
+<!-- 
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
                     <i class="fa-solid fa-location-pin h2"></i>
@@ -123,9 +424,9 @@
                         <p><i class="fa-solid fa-phone mr-1"></i> 01273 699 996</p>
                     </div>
                 </section>
-            </article>
+            </article> -->
 
-            <article class="col-lg-4 py-4">
+            <!-- <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
                     <i class="fa-solid fa-location-pin h2"></i>
                     <div class="ml-3 w-75 text-secondary">
@@ -162,180 +463,8 @@
                         <p><i class="fa-solid fa-phone mr-1"></i> 01302 618 150</p>
                     </div>
                 </section>
-            </article>
+            </article> -->
 
-
-
-            <div class=" col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-
-                    <div>
-                        <h5>BAGGAGE WORLD</h5>
-                        <p>Unit 3-4, The Spires, High Street, Barnet, EN5 5XY </p>
-                    </div>
-                    <h5>BARNET</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE WORLD</h5>
-                        <p>Unit 86, Upper Level,Eastgate Shopping Centre, Basildon </p>
-                    </div>
-                    <h5> BASILDON</h5>
-                </div>
-            </div>
-
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE FACTORY</h5>
-                        <p>Unit 47, Dockside Outlet Centre, Maritime Way, Chatham, Kent, ME4 3ED </p>
-                    </div>
-                    <h5>CHATHAM</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE FACTORY </h5>
-                        <p>Unit 43, Dalton Park, Murton, County Durham, SR7 9HU </p>
-                    </div>
-                    <h5>DALTON PARK</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE FACTORY </h5>
-                        <p>Unit 52, Lakeside Village outlet centre, White Rose Way, Doncaster, North Yorkshire
-
-                            DN4 5PH </p>
-                    </div>
-                    <h5>DONCASTER</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE FACTORY </h5>
-                        <p>Unit 10 B, Affinity Outlet Village, Anchorage Road, Fleetwood, Lancashire, FY7 6AE
-                        </p>
-                    </div>
-                    <h5>FLEETWOOD</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE FACTORY </h5>
-                        <p>Unit 37,Comet Way,The Galleria, Hatfield, AL10 0YB </p>
-                    </div>
-                    <h5>GALLERIA</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE WORLD </h5>
-                        <p>Unit 64 Gloucester Quays Oulet Centre Gloucester, GL1 5SH </p>
-                    </div>
-                    <h5> GLOUCESTER</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE WORLD </h5>
-                        <p>Unit 16, The Marlowes Shopping Centre, Hemel Hempstead, HP1 1DX </p>
-                    </div>
-                    <h5> HEMEL HEMPSTEAD</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE WORLD </h5>
-                        <p>Unit 37, Kingsgate Centre, King Street, Huddersfield, HD1 2QB </p>
-                    </div>
-                    <h5>HUDDERSFIELD</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE WORLD </h5>
-                        <p>Unit F5, Junction 32, Tomahawk Trail,Castleford,West Yorkshire WF10 4FR </p>
-                    </div>
-                    <h5> JUNCTION 32</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE WORLD </h5>
-                        <p>Unit 271 Lakeside Shopping Centre, Grays, RM20 2ZN </p>
-                    </div>
-                    <h5>LAKESIDE</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE FACTORY </h5>
-                        <p>Unit 1, Peak Village, Chatsworth Road, Matlock, DE4 2JE </p>
-                    </div>
-                    <h5> PEAK VILLAGE</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE FACTORY </h5>
-                        <p>Unit G3 Quaysid MdiaCity, The Quays, Salford, M50 3AG</p>
-                    </div>
-                    <h5>MANCHESTER</h5>
-                </div>
-            </div>
-
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE WORLD </h5>
-                        <p>Unit 19, Royals Shopping centre, Southend on Sea, SS1 1DG
-                        </p>
-                    </div>
-                    <h5>SOUTHEND</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE FACTORY </h5>
-                        <p>Unit 23, Sterling Mills Outlet Village, Tillicoultry, FK13 6HQ </p>
-                    </div>
-                    <h5>STERLING MILLS</h5>
-                </div>
-            </div>
-
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE WORLD </h5>
-                        <p>Unit 10, West Gate, Stevenage, Hetfordshire, SG1 1QR </p>
-                    </div>
-                    <h5>STEVENAGE</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 py-4">
-                <div class="inner_location d-flex justify-content-between ">
-                    <div>
-                        <h5>BAGGAGE FACTORY </h5>
-                        <p>Unit 301/302 TrenthamVillage, Stone Road, Stock on Trent, ST4 8AX 1 </p>
-                    </div>
-                    <h5>TRENTHAM</h5>
-                </div>
-            </div>
             </section>
         </div>
         <div class="map container-fluid p-0">

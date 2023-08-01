@@ -50,7 +50,7 @@
 
     <article class="container-fluid mt-4 ">
 
-        <h5 class="ml-2 fs_14">Our Recommendations</h5>
+        <h5 class="ml-2 fs_14">Our Products</h5>
 
 
         <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
@@ -59,7 +59,7 @@
                 <div class="carousel-item active">
                     <div class="row">
                         @foreach ($products as $product)
-
+                        @if ($product->is_feature == 'Featured')
                         @if ($counter % 4 == 0 && $counter > 0)
                     </div>
                 </div>
@@ -153,6 +153,7 @@
 
                         </div>
                         @php $counter++; @endphp
+                        @endif
                         @endforeach
                     </div>
                 </div>
@@ -276,7 +277,7 @@
                 <img src="{{ asset('uploads/website/emboss.jpg') }}" alt="emboss image" class="img-fluid">
             </div>
             <div class="col-lg-4 p-0">
-                <video width="450" height="281" controls>
+                <video width="450" height="310" controls>
                     <source src="{{ asset('uploads/website/clip.mp4') }}" type="video/mp4">
                 </video>
             </div>

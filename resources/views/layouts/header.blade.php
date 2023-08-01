@@ -41,7 +41,7 @@
 <body>
 
     <div class="container-fluid bg_black top_navigation " style="height: 50px;">
-        <h3 class="top_moving_text text-white mb-0 p-2" style="font-style: italic;">Welcome To the World of Bags</h3>
+        <h3 class="top_moving_text text-white mb-0 p-2 gradient-text" style="font-style: italic;">Welcome To the World of Bags</h3>
     </div>
 
 
@@ -140,7 +140,7 @@
                     </i></a>
             </div>
         </div>
-        <h5 class="mb-2 mt-2 gradient-text">WELCOME TO THE WORLD OF BAGS</h5>
+        <!-- <h5 class="mb-2 mt-2 gradient-text">WELCOME TO THE WORLD OF BAGS</h5> -->
     </div>
     <div class=" container-fluid text-center Samsonite_logo ">
         <nav class=" navbar navbar-expand-lg navbar-transparent bg-transparent">
