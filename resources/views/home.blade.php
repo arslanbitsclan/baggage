@@ -277,7 +277,7 @@
                 <img src="{{ asset('uploads/website/emboss.jpg') }}" alt="emboss image" class="img-fluid">
             </div>
             <div class="col-lg-4 p-0">
-                <video width="450" height="310" controls>
+                <video width="450" height="281" controls>
                     <source src="{{ asset('uploads/website/clip.mp4') }}" type="video/mp4">
                 </video>
             </div>
