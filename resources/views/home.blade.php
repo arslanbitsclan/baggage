@@ -25,6 +25,8 @@
     /* number of lines to show */
     -webkit-box-orient: vertical;
 }
+
+@import url('https://fonts.cdnfonts.com/css/lucida-handwriting-std');
 </style>
 @endpush
 @section('section')
@@ -274,10 +276,10 @@
     <section class="mb-50 container-fluid mt-5">
         <div class="row">
             <div class="col-lg-8 p-0">
-                <img src="{{ asset('uploads/website/emboss.jpg') }}" alt="emboss image" class="img-fluid">
+                <img src="{{ asset('uploads/website/627.png') }}" alt="emboss image" class="img-fluid h-75 w-100">
             </div>
             <div class="col-lg-4 p-0">
-                <video width="450" height="281" controls>
+                <video width="450" height="380" controls>
                     <source src="{{ asset('uploads/website/clip.mp4') }}" type="video/mp4">
                 </video>
             </div>

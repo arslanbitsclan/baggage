@@ -41,7 +41,9 @@
 <body>
 
     <div class="container-fluid bg_black top_navigation " style="height: 50px;">
-        <h3 class="top_moving_text text-white mb-0 p-2 gradient-text" style="font-style: italic;">Welcome To the World of Bags</h3>
+        <h3 class="top_moving_text text-white mb-0 p-2 gradient-text"
+            style="font-style: italic; font-family: 'Lucida Handwriting Std', sans-serif;">Welcome To the World of Bags
+        </h3>
     </div>
 
 

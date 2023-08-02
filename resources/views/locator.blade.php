@@ -42,7 +42,7 @@
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01259 928 400</div>
 
                         <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
-                             Store Details
+                            Store Details
                         </button>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01782 657 392</div>
 
                         <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
-                             Store Details
+                            Store Details
                         </button>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01634 892 738</div>
 
                         <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
-                             Store Details
+                            Store Details
                         </button>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01629 735 777</div>
 
                         <button class="btn btn-outline-secondary font-weight-bold btn-sm p-2 rounded-0">
-                             Store Details
+                            Store Details
                         </button>
                     </div>
                 </div>
@@ -112,8 +112,8 @@
 
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class="  w-75 text-secondary">
                         <h6>BAGGAGE FACTORY </h6>
                         <p class="mb-0">Unit 43, Dalton Park, Murton, County Durham, SR7 9HU </p>
                         <h5>DALTON PARK</h5>
@@ -124,10 +124,12 @@
 
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class="w-75 text-secondary">
                         <h6>BAGGAGE FACTORY </h6>
-                        <p class="mb-0">Unit 52, Lakeside Village outlet centre, White Rose Way, Doncaster, North Yorkshire DN4 5PH  </p>
+                        <p class="mb-0">Unit 52, Lakeside Village outlet centre, White Rose Way, Doncaster, North
+                            Yorkshire
+                            DN4 5PH </p>
                         <h5>DONCASTER</h5>
                         <p><i class="fa-solid fa-phone mr-1"></i> 01302 618150</p>
                     </div>
@@ -136,12 +138,14 @@
 
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class="w-75 text-secondary">
                         <h6>BAGGAGE FACTORY </h6>
-                        <p class="mb-0">Unit 10 B, Affinity Outlet Village, Anchorage Road, Fleetwood, Lancashire, FY7 6AE</p>
+                        <p class="mb-0">Unit 10 B, Affinity Outlet Village, Anchorage Road, Fleetwood, Lancashire, FY7
+                            6AE
+                        </p>
                         <h5>FLEETWOOD</h5>
-                        <p><i class="fa-solid fa-phone mr-1"></i>  01253932660 </p>
+                        <p><i class="fa-solid fa-phone mr-1"></i> 01253932660 </p>
                     </div>
                 </section>
             </article>
@@ -150,14 +154,14 @@
                 <section class="inner_location d-flex">
                     <i class="fa-solid fa-location-pin h2"></i>
                     <div class="ml-3 w-75 text-secondary">
-                        <h6>BAGGAGE FACTORY 
+                        <h6>BAGGAGE FACTORY
                         </h6>
                         <p class="mb-0">Unit 37,Comet Way,The Galleria, Hatfield, AL10 0YB </p>
                         <h5>GALLERIA</h5>
                         <p><i class="fa-solid fa-phone mr-1"></i> 01707 257 779</p>
                     </div>
                 </section>
-            </article> 
+            </article>
 
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
@@ -165,12 +169,12 @@
                     <div class="ml-3 w-75 text-secondary">
                         <h6>BAGGAGE FACTORY
                         </h6>
-                        <p class="mb-0">Unit F5, Junction 32, Tomahawk Trail,Castleford,West Yorkshire WF10 4FR    </p>
+                        <p class="mb-0">Unit F5, Junction 32, Tomahawk Trail,Castleford,West Yorkshire WF10 4FR </p>
                         <h5>JUNCTION 32</h5>
                         <p><i class="fa-solid fa-phone mr-1"></i> 01977 279 696</p>
                     </div>
                 </section>
-            </article> 
+            </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
                     <i class="fa-solid fa-location-pin h2"></i>
@@ -182,19 +186,19 @@
                         <p><i class="fa-solid fa-phone mr-1"></i> 0161 222 9360</p>
                     </div>
                 </section>
-            </article> 
+            </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
                     <i class="fa-solid fa-location-pin h2"></i>
                     <div class="ml-3 w-75 text-secondary">
-                        <h6>BAGGAGE FACTORY 
+                        <h6>BAGGAGE FACTORY
                         </h6>
                         <p class="mb-0">Unit 23, Sterling Mills Outlet Village, Tillicoultry, FK13 6HQ </p>
                         <h5>STERLING MILLS</h5>
                         <p><i class="fa-solid fa-phone mr-1"></i> 01259 928 400</p>
                     </div>
                 </section>
-            </article> 
+            </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
                     <i class="fa-solid fa-location-pin h2"></i>
@@ -206,19 +210,19 @@
                         <p><i class="fa-solid fa-phone mr-1"></i> 01268 522 704</p>
                     </div>
                 </section>
-            </article> 
+            </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
                     <i class="fa-solid fa-location-pin h2"></i>
                     <div class="ml-3 w-75 text-secondary">
                         <h6>BAGGAGE FACTORY <small>Franchise</small>
                         </h6>
-                        <p class="mb-0">Unit 64 Gloucester Quays Oulet Centre Gloucester, GL1 5SH  </p>
+                        <p class="mb-0">Unit 64 Gloucester Quays Oulet Centre Gloucester, GL1 5SH </p>
                         <h5>GLOUCESTER</h5>
                         <p><i class="fa-solid fa-phone mr-1"></i>01452 681 527</p>
                     </div>
                 </section>
-            </article> 
+            </article>
 
 
 
@@ -228,12 +232,12 @@
                     <div class="ml-3 w-75 text-secondary">
                         <h6>BAGGAGE FACTORY <small>Franchise</small>
                         </h6>
-                        <p class="mb-0">Unit  16, The Marlowes Shopping Centre, Hemel Hempstead, HP1 1DX </p>
+                        <p class="mb-0">Unit 16, The Marlowes Shopping Centre, Hemel Hempstead, HP1 1DX </p>
                         <h5>HEMEL HEMPSTEAD</h5>
                         <p><i class="fa-solid fa-phone mr-1"></i>01442 246 443</p>
                     </div>
                 </section>
-            </article> 
+            </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
                     <i class="fa-solid fa-location-pin h2"></i>
@@ -245,7 +249,7 @@
                         <p><i class="fa-solid fa-phone mr-1"></i> 01484 768820</p>
                     </div>
                 </section>
-            </article> 
+            </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
                     <i class="fa-solid fa-location-pin h2"></i>
@@ -257,7 +261,7 @@
                         <p><i class="fa-solid fa-phone mr-1"></i>01708 607 755</p>
                     </div>
                 </section>
-            </article> 
+            </article>
 
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
@@ -290,7 +294,8 @@
                     <div class="ml-3 w-75 text-secondary">
                         <h6>BAGGAGE FACTORY <small>Franchise</small>
                         </h6>
-                        <p class="mb-0">3 McAurthur Glen Western Designer Outlet Village Kemble Drive Swindon  SN2 2DYR</p>
+                        <p class="mb-0">3 McAurthur Glen Western Designer Outlet Village Kemble Drive Swindon SN2 2DYR
+                        </p>
                         <h5>SWINDON</h5>
                         <p><i class="fa-solid fa-phone mr-1"></i>01438 488 385</p>
                     </div>
