@@ -11153,3 +11153,21 @@ body {
 .location_details > h6 {
     color: black;
 }
+
+
+
+.baggage-locator-retailer{
+color: #000000;
+    font-weight: bold;
+    line-height: 41px;
+    padding: 0 0 20px 52px;
+    border-top: none;
+    background-position: -13px 0;
+    border-bottom: 1px solid #dddddd;
+    display: block;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: -61px;
+}

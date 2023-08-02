@@ -108,6 +108,12 @@
                 </div>
             </div>
         </div>
+
+        <div class="baggage-locator-retailer">
+        <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:5%;height:10%" />
+            <span>Samsonite Retailers
+             </span>
+        </div>
         <div class="row">
 
             <article class="col-lg-4 py-4">
