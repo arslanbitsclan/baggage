@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lucida+Handwriting+Std&display=swap">
+
     <style>
     .logo.logo-width-1 a img {
         width: 95px;
@@ -42,7 +44,8 @@
 
     <div class="container-fluid bg_black top_navigation " style="height: 50px;">
         <h3 class="top_moving_text text-white mb-0 p-2 gradient-text"
-            style="font-style: italic; font-family: 'Lucida Handwriting Std', sans-serif;">Welcome To the World of Bags
+            style="font-family: 'Lugrasimo';font-style: italic;">
+            Welcome To the World of Bags
         </h3>
     </div>
 
@@ -130,8 +133,8 @@
                 </div>
 
             </div>
-            <a><img src="{{ asset('uploads/website/logo.jpeg') }}" class="img-fluid mb-2 logo"
-                    style="width: 30%;  margin-left: -318px;" /></a>
+            <a><img src="{{ asset('uploads/website/baggageLogo.jpeg') }}" class="img-fluid mb-2 logo"
+                    style="width: 30%;margin-left: -318px;" /></a>
             <div>
                 <a href="{{ url('/locator') }}" class="text-decoration-none text-dark">
                     <i class="fa-solid fa-map-pin mr-1"></i>

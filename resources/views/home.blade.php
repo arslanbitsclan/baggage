@@ -167,20 +167,28 @@
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="mt-5 d-flex">
-                        <img src="{{ asset('uploads/website/443.png') }}" alt="mid banner not found"
+                        <img src="{{ asset('uploads/website/505.png') }}" alt="mid banner not found"
                             class="img-fluid w-50">
-                        <img src="{{ asset('uploads/website/379.png') }}" alt="mid banner not found"
+                        <img src="{{ asset('uploads/website/443.png') }}" alt="mid banner not found"
                             class="img-fluid w-50">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="mt-5 d-flex">
                         <img src="{{ asset('uploads/website/541.png') }}" alt="mid banner not found"
+                            class="img-fluid w-50">
+                        <img src="{{ asset('uploads/website/641.png') }}" alt="mid banner not found"
+                            class="img-fluid w-50">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="mt-5 d-flex">
+                        <img src="{{ asset('uploads/website/379.png') }}" alt="mid banner not found"
                             class="img-fluid w-50">
                         <img src="{{ asset('uploads/website/683.png') }}" alt="mid banner not found"
                             class="img-fluid w-50">
@@ -276,12 +284,19 @@
     <section class="mb-50 container-fluid mt-5">
         <div class="row">
             <div class="col-lg-8 p-0">
-                <img src="{{ asset('uploads/website/627.png') }}" alt="emboss image" class="img-fluid h-75 w-100">
+                <img src="{{ asset('uploads/website/imgg.jpeg') }}" alt="emboss image" class="img-fluid h-75 w-100">
             </div>
             <div class="col-lg-4 p-0">
-                <video width="450" height="380" controls>
+                <video id="myVideo" width="450" height="410" controls autoplay>
                     <source src="{{ asset('uploads/website/clip.mp4') }}" type="video/mp4">
                 </video>
+
+                <!-- <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    var video = document.getElementById("myVideo");
+                    video.play();
+                });
+                </script> -->
             </div>
         </div>
     </section>

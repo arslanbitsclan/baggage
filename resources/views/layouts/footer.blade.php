@@ -134,39 +134,19 @@
                             <div class="carousel-item active">
                                 <div class="row text-center">
                                     <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/1.png') }}" style="width:180px;height:125px"
+                                        <img src="{{ asset('uploads/website/1.png') }}" style="width:130px;height:95px"
                                             class="img-fluid">
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/2.png') }}" style="width:180px;height:125px"
+                                        <img src="{{ asset('uploads/website/2.png') }}" style="width:130px;height:95px"
                                             class="img-fluid">
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/3.png') }}" style="width:180px;height:125px"
+                                        <img src="{{ asset('uploads/website/3.png') }}" style="width:130px;height:95px"
                                             class="img-fluid">
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/4.png') }}" style="width:180px;height:125px"
-                                            class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row text-center">
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/5.png') }}" style="width:180px;height:125px"
-                                            class="img-fluid">
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/12.jpg') }}"
-                                            style="width:180px;height:125px" class="img-fluid">
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/6.png') }}" style="width:130px;height:125px"
-                                            class="img-fluid">
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/8.png') }}" style="width:180px;height:125px"
+                                        <img src="{{ asset('uploads/website/4.png') }}" style="width:130px;height:95px"
                                             class="img-fluid">
                                     </div>
                                 </div>
@@ -174,20 +154,40 @@
                             <div class="carousel-item">
                                 <div class="row text-center">
                                     <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/7.png') }}" style="width:180px;height:125px"
+                                        <img src="{{ asset('uploads/website/5.png') }}" style="width:130px;height:95px"
                                             class="img-fluid">
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/9.png') }}" style="width:180px;height:125px"
+                                        <img src="{{ asset('uploads/website/12.jpg') }}" style="width:130px;height:95px"
                                             class="img-fluid">
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/10.jpg') }}"
-                                            style="width:180px;height:125px" class="img-fluid">
+                                        <img src="{{ asset('uploads/website/6.png') }}" style="width:100px;height:95px"
+                                            class="img-fluid">
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/11.jpg') }}"
-                                            style="width:180px;height:125px" class="img-fluid">
+                                        <img src="{{ asset('uploads/website/8.png') }}" style="width:130px;height:95px"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row text-center">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img src="{{ asset('uploads/website/7.png') }}" style="width:130px;height:95px"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img src="{{ asset('uploads/website/9.png') }}" style="width:130px;height:95px"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img src="{{ asset('uploads/website/10.jpg') }}" style="width:130px;height:95px"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <img src="{{ asset('uploads/website/11.jpg') }}" style="width:130px;height:95px"
+                                            class="img-fluid">
                                     </div>
                                 </div>
                             </div>

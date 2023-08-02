@@ -113,7 +113,7 @@
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
                     <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
-                    <div class="  w-75 text-secondary">
+                    <div class="  w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY </h6>
                         <p class="mb-0">Unit 43, Dalton Park, Murton, County Durham, SR7 9HU </p>
                         <h5>DALTON PARK</h5>
@@ -125,7 +125,7 @@
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
                     <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
-                    <div class="w-75 text-secondary">
+                    <div class="w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY </h6>
                         <p class="mb-0">Unit 52, Lakeside Village outlet centre, White Rose Way, Doncaster, North
                             Yorkshire
@@ -139,7 +139,7 @@
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
                     <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
-                    <div class="w-75 text-secondary">
+                    <div class="w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY </h6>
                         <p class="mb-0">Unit 10 B, Affinity Outlet Village, Anchorage Road, Fleetwood, Lancashire, FY7
                             6AE
@@ -152,8 +152,8 @@
 
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class="w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY
                         </h6>
                         <p class="mb-0">Unit 37,Comet Way,The Galleria, Hatfield, AL10 0YB </p>
@@ -165,8 +165,8 @@
 
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class=" w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY
                         </h6>
                         <p class="mb-0">Unit F5, Junction 32, Tomahawk Trail,Castleford,West Yorkshire WF10 4FR </p>
@@ -177,8 +177,8 @@
             </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class=" w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY
                         </h6>
                         <p class="mb-0">Unit G3 Quaysid MdiaCity, The Quays, Salford, M50 3AG </p>
@@ -189,8 +189,8 @@
             </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class=" w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY
                         </h6>
                         <p class="mb-0">Unit 23, Sterling Mills Outlet Village, Tillicoultry, FK13 6HQ </p>
@@ -201,8 +201,8 @@
             </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class=" w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 86, Upper Level,Eastgate Shopping Centre, Basildon </p>
@@ -213,8 +213,8 @@
             </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class=" w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 64 Gloucester Quays Oulet Centre Gloucester, GL1 5SH </p>
@@ -228,8 +228,8 @@
 
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class=" w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 16, The Marlowes Shopping Centre, Hemel Hempstead, HP1 1DX </p>
@@ -240,8 +240,8 @@
             </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class=" w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 37, Kingsgate Centre, King Street, Huddersfield, HD1 2QB</p>
@@ -252,8 +252,8 @@
             </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class=" w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 271 Lakeside Shopping Centre, Grays, RM20 2ZN</p>
@@ -265,8 +265,8 @@
 
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class=" w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 19, Royals Shopping centre, Southend on Sea, SS1 1DG</p>
@@ -277,8 +277,8 @@
             </article>
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class=" w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 10, West Gate, Stevenage, Hetfordshire, SG1 1QR</p>
@@ -290,8 +290,8 @@
 
             <article class="col-lg-4 py-4">
                 <section class="inner_location d-flex">
-                    <i class="fa-solid fa-location-pin h2"></i>
-                    <div class="ml-3 w-75 text-secondary">
+                    <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
+                    <div class=" w-75 text-secondary location_details">
                         <h6>BAGGAGE FACTORY <small>Franchise</small>
                         </h6>
                         <p class="mb-0">3 McAurthur Glen Western Designer Outlet Village Kemble Drive Swindon SN2 2DYR

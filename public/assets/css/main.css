@@ -11141,3 +11141,15 @@ body {
         transform: translateX(100%);
     }
 }
+.location_details > h5 {
+    font-size: 16px;
+    color: black;
+}
+.location_details > p {
+    color: black;
+    font-weight: 700;
+}
+
+.location_details > h6 {
+    color: black;
+}
