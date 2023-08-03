@@ -43,10 +43,7 @@
 <body>
 
     <div class="container-fluid bg_black top_navigation " style="height: 50px;">
-        <h3 class="top_moving_text text-white mb-0 p-2 gradient-text"
-            style="font-family: 'Lugrasimo';font-style: italic;">
-            Welcome To the World of Bags
-        </h3>
+        <img src="{{ asset('uploads/website/welcomeimage.jpg') }}" class="top_moving_text" />
     </div>
 
 

@@ -138,7 +138,7 @@
                                             class="img-fluid">
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <img src="{{ asset('uploads/website/2.png') }}" style="width:130px;height:95px"
+                                        <img src="{{ asset('uploads/website/2.jpg') }}" style="width:130px;height:95px"
                                             class="img-fluid">
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-12">
