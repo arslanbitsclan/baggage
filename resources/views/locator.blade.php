@@ -111,7 +111,7 @@
 
         <div class="baggage-locator-retailer">
         <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:5%;height:10%" />
-            <span>Samsonite Retailers
+            <span>Baggage Factory Retailers
              </span>
         </div>
         <div class="row">
@@ -209,7 +209,7 @@
                 <section class="inner_location d-flex">
                     <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
                     <div class=" w-75 text-secondary location_details">
-                        <h6>BAGGAGE FACTORY <small>Franchise</small>
+                        <h6>BAGGAGE WORLD <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 86, Upper Level,Eastgate Shopping Centre, Basildon </p>
                         <h5>BARNET</h5>
@@ -221,7 +221,7 @@
                 <section class="inner_location d-flex">
                     <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
                     <div class=" w-75 text-secondary location_details">
-                        <h6>BAGGAGE FACTORY <small>Franchise</small>
+                        <h6>BAGGAGE WORLD <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 64 Gloucester Quays Oulet Centre Gloucester, GL1 5SH </p>
                         <h5>GLOUCESTER</h5>
@@ -236,7 +236,7 @@
                 <section class="inner_location d-flex">
                     <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
                     <div class=" w-75 text-secondary location_details">
-                        <h6>BAGGAGE FACTORY <small>Franchise</small>
+                        <h6>BAGGAGE WORLD <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 16, The Marlowes Shopping Centre, Hemel Hempstead, HP1 1DX </p>
                         <h5>HEMEL HEMPSTEAD</h5>
@@ -248,7 +248,7 @@
                 <section class="inner_location d-flex">
                     <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
                     <div class=" w-75 text-secondary location_details">
-                        <h6>BAGGAGE FACTORY <small>Franchise</small>
+                        <h6>BAGGAGE WORLD <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 37, Kingsgate Centre, King Street, Huddersfield, HD1 2QB</p>
                         <h5>HUDDERSFIELD</h5>
@@ -260,7 +260,7 @@
                 <section class="inner_location d-flex">
                     <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
                     <div class=" w-75 text-secondary location_details">
-                        <h6>BAGGAGE FACTORY <small>Franchise</small>
+                        <h6>BAGGAGE WORLD <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 271 Lakeside Shopping Centre, Grays, RM20 2ZN</p>
                         <h5>LAKESIDE</h5>
@@ -273,7 +273,7 @@
                 <section class="inner_location d-flex">
                     <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
                     <div class=" w-75 text-secondary location_details">
-                        <h6>BAGGAGE FACTORY <small>Franchise</small>
+                        <h6>BAGGAGE WORLD <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 19, Royals Shopping centre, Southend on Sea, SS1 1DG</p>
                         <h5>SOUTHEND</h5>
@@ -285,7 +285,7 @@
                 <section class="inner_location d-flex">
                     <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
                     <div class=" w-75 text-secondary location_details">
-                        <h6>BAGGAGE FACTORY <small>Franchise</small>
+                        <h6>BAGGAGE WORLD <small>Franchise</small>
                         </h6>
                         <p class="mb-0">Unit 10, West Gate, Stevenage, Hetfordshire, SG1 1QR</p>
                         <h5>STEVENAGE</h5>
@@ -298,7 +298,7 @@
                 <section class="inner_location d-flex">
                     <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:10%;height:10%" />
                     <div class=" w-75 text-secondary location_details">
-                        <h6>BAGGAGE FACTORY <small>Franchise</small>
+                        <h6>BAGGAGE WORLD <small>Franchise</small>
                         </h6>
                         <p class="mb-0">3 McAurthur Glen Western Designer Outlet Village Kemble Drive Swindon SN2 2DYR
                         </p>

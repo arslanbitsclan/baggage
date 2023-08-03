@@ -16,7 +16,7 @@
     <meta property="og:image" content="">
     <link href="{{ asset('css/iziToast.css') }}" rel="stylesheet">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('uploads/website/logo.jpeg') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('uploads/website/logo.tif') }}">
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -133,7 +133,7 @@
                 </div>
 
             </div>
-            <a><img src="{{ asset('uploads/website/baggageLogo.jpeg') }}" class="img-fluid mb-2 logo"
+            <a><img src="{{ asset('uploads/website/logo.tif') }}" class="img-fluid mb-2 logo"
                     style="width: 30%;margin-left: -318px;" /></a>
             <div>
                 <a href="{{ url('/locator') }}" class="text-decoration-none text-dark">
