@@ -18,7 +18,7 @@
                         </h6>
                         <p class="w-75">Unit 36, Waterfront,Brighton Marina, BN2 5WA</p>
                         <div class="mb-2"> <i
-                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+                                class="fa-regular fa-envelope mr-2"></i><a>sales@baggagefactory.co.uk</a></div>
 
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>0127 699 996</div>
 
@@ -37,7 +37,7 @@
                         </h6>
                         <p class="w-75">Unit 23, Sterling Mills Outlet Village, Tillicoultry, FK13 6HQ</p>
                         <div class="mb-2"> <i
-                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+                                class="fa-regular fa-envelope mr-2"></i><a>sales@baggagefactory.co.uk</a></div>
 
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01259 928 400</div>
 
@@ -55,9 +55,9 @@
                         <h6 class="mb-0">
                             TRENTHAM
                         </h6>
-                        <p class="w-75">Unit 301/302 TrenthamVillage, Stone Road, Stock on Trent, ST4 8AX 1</p>
+                        <p class="w-75">Unit 301/302 TrenthamVillage, Stone Road, Stock on Trent, ST4 8AX</p>
                         <div class="mb-2"> <i
-                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+                                class="fa-regular fa-envelope mr-2"></i><a>sales@baggagefactory.co.uk</a></div>
 
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01782 657 392</div>
 
@@ -77,7 +77,7 @@
                         </h6>
                         <p class="w-75">Unit 47, Dockside Outlet Centre, Maritime Way, Chatham, Kent, ME4 3ED</p>
                         <div class="mb-2"> <i
-                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+                                class="fa-regular fa-envelope mr-2"></i><a>sales@baggagefactory.co.uk</a></div>
 
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01634 892 738</div>
 
@@ -97,7 +97,7 @@
                         </h6>
                         <p class="w-75">Unit 1, Peak Village, Chatsworth Road, Matlock, DE4 2JE</p>
                         <div class="mb-2"> <i
-                                class="fa-regular fa-envelope mr-2"></i><a>baggagefactorylondon@gmail.com</a></div>
+                                class="fa-regular fa-envelope mr-2"></i><a>sales@baggagefactory.co.uk</a></div>
 
                         <div class="mb-2"><i class="fa-solid fa-phone mr-2"></i>01629 735 777</div>
 

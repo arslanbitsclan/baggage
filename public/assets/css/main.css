@@ -11171,3 +11171,50 @@ color: #000000;
     margin-top: 50px;
     margin-left: -61px;
 }
+
+
+
+/* Adjust the styling according to your design needs */
+.sub-category-list {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Additional styles for dropdown positioning */
+    /* Adjust the values to fit your layout */
+    top: 100%;
+    left: 0;
+}
+
+.w_250 {
+    /* Additional styles for dropdown positioning */
+    /* Adjust the values to fit your layout */
+    position: relative;
+}
+
+.w_250:hover .sub-category-list {
+    display: block;
+}
+
+
+/* Additional styles for the sub-category list */
+.sub-category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-category-list li {
+    padding: 5px 0;
+}
+
+.sub-category-list li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sub-category-list li a:hover {
+    color: #ff0000;
+}
+

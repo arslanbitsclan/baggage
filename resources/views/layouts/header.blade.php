@@ -16,7 +16,7 @@
     <meta property="og:image" content="">
     <link href="{{ asset('css/iziToast.css') }}" rel="stylesheet">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('uploads/website/logo.tif') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('uploads/website/logo.jpg') }}">
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -130,8 +130,8 @@
                 </div>
 
             </div>
-            <a><img src="{{ asset('uploads/website/logo.tif') }}" class="img-fluid mb-2 logo"
-                    style="width: 30%;margin-left: -318px;" /></a>
+            <img src="{{ asset('uploads/website/baggage factory transparent logo.jpg') }}" class="img-fluid mb-2 logo"
+                    style="width: 30%;margin-left: -636px;" />
             <div>
                 <a href="{{ url('/locator') }}" class="text-decoration-none text-dark">
                     <i class="fa-solid fa-map-pin mr-1"></i>
@@ -142,7 +142,7 @@
                     </i></a>
             </div>
         </div>
-        <!-- <h5 class="mb-2 mt-2 gradient-text">WELCOME TO THE WORLD OF BAGS</h5> -->
+       
     </div>
     <div class=" container-fluid text-center Samsonite_logo ">
         <nav class=" navbar navbar-expand-lg navbar-transparent bg-transparent">
@@ -158,44 +158,40 @@
 
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto align-items-center">
-                    <li class="nav-item ml-2 active">
-                        <a class="nav-link  border-0 bg-transparent text-dark @if ($active == 'home') active @endif"
-                            href="{{ url('/') }}">Home</a>
-                    </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link dropdown-toggle border-0 bg-transparent text-dark @if ($active == 'shop') active @endif"
-                            href="{{ url('/shop') }}" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Bags <span class="sr-only">(current)</span></a>
-                        <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuLink">
-                            <div class="header_dropdown_main d-flex">
 
-                                <div class=" w_250 p-3 ">
-                                    <h2 class="dropdown_region">Categories</h2>
-                                    @foreach ($categories as $category)
-                                    <a class="dropdown-item fw_700 pl-0"
-                                        href="{{ url('/shop/' . $category->category_slug) }}">{{ $category->category_title }}</a>
-                                    @endforeach
-                                </div>
-                                <div class=" w_250 p-3 ">
-                                    <img src="{{ asset('uploads/website/dropdown1.png') }}" class="w-75 img-fluid">
-                                </div>
-                                <div class=" w_250 p-3 ">
-                                    <img src="{{ asset('uploads/website/dropdown2.png') }}" class="w-75 img-fluid">
-                                </div>
-                                <div class=" w_250 p-3 ">
-                                    <img src="{{ asset('uploads/website/amto-product.png') }}" class="w-75 img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="nav-item ml-2">
-                        <a class="nav-link" href="{{ url('/about') }}">About Us</a>
-                    </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link" href="{{ url('/contact') }}">Contact Us</a>
-                    </li>
-
+<li class="nav-item ml-2">
+    <a class="nav-link border-0 bg-transparent text-dark @if ($active == 'shop') active @endif"
+        href="{{ url('/shop') }}" role="button" id="dropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+    </a>
+    <div class="header_dropdown_main d-flex">
+        @foreach ($categories as $category)
+        <div class="w_250 p-3">
+            <a class="dropdown-item fw_700 pl-0  dropdown-toggle" href="{{ url('/shop/' . $category->category_slug) }}">
+                {{ $category->category_title }}
+            </a>
+             <ul class="sub-category-list dropdown-menu"> 
+                
+                @foreach ($sub_categories[$category->id] as $item)
+                <li>
+                    <a href="{{ url('/shop/' . $category->category_slug . '/' . $item->sub_category_slug) }}">{{ $item->sub_category_title }}</a>
+                </li>
+               
+                @endforeach
+                <div class=" w_250 p-3 ">
+                    <img src="{{ asset('uploads/website/dropdown1.png') }}" class="w-75 img-fluid">
+                </div>
+                <div class=" w_250 p-3 ">
+                    <img src="{{ asset('uploads/website/dropdown2.png') }}" class="w-75 img-fluid">
+                </div>
+                <div class=" w_250 p-3 ">
+                    <img src="{{ asset('uploads/website/amto-product.png') }}" class="w-75 img-fluid">
+                </div>
+             </ul> 
+        </div>
+        @endforeach
+    </div>
+</li>
+      
                     <li class="nav-item ml-2">
                         <a class="nav-link " href="{{ url('/wishlist') }}">
                             <span class="badge badge-light">
