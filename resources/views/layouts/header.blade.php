@@ -131,7 +131,7 @@
 
             </div>
             <img src="{{ asset('uploads/website/baggage factory transparent logo.jpg') }}" class="img-fluid mb-2 logo"
-                    style="width: 30%;margin-left: -636px;" />
+                style="width: 30%;margin-left: -636px;" />
             <div>
                 <a href="{{ url('/locator') }}" class="text-decoration-none text-dark">
                     <i class="fa-solid fa-map-pin mr-1"></i>
@@ -140,14 +140,22 @@
                 <a>
                     <i class="fa-regular fa-user mx-3">
                     </i></a>
+                <a> <i class="fa-regular fa-heart mx-2"></i> <sup class="badge badge-light" id="wishlistheading">
+                        {{ $wishlist }}</sup>
+                </a>
+                <a>
+                    <i class="fa-solid fa-cart-shopping mx-2"></i> <sup class="badge badge-light" id="cartheading">
+                        {{ $cart }}</sup>
+                </a>
+
             </div>
         </div>
-       
+
     </div>
     <div class=" container-fluid text-center Samsonite_logo ">
         <nav class=" navbar navbar-expand-lg navbar-transparent bg-transparent">
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2 search_bar border-top-0 border-right-0 border-left-0" type="search"
+                <input class="form-control  search_bar border-top-0 border-right-0 border-left-0" type="search"
                     placeholder="Search" aria-label="Search">
             </form>
 
@@ -159,40 +167,49 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto align-items-center">
 
-<li class="nav-item ml-2">
-    <a class="nav-link border-0 bg-transparent text-dark @if ($active == 'shop') active @endif"
-        href="{{ url('/shop') }}" role="button" id="dropdownMenuLink" aria-haspopup="true" aria-expanded="false">
-    </a>
-    <div class="header_dropdown_main d-flex">
-        @foreach ($categories as $category)
-        <div class="w_250 p-3">
-            <a class="dropdown-item fw_700 pl-0  dropdown-toggle" href="{{ url('/shop/' . $category->category_slug) }}">
-                {{ $category->category_title }}
-            </a>
-             <ul class="sub-category-list dropdown-menu"> 
-                
-                @foreach ($sub_categories[$category->id] as $item)
-                <li>
-                    <a href="{{ url('/shop/' . $category->category_slug . '/' . $item->sub_category_slug) }}">{{ $item->sub_category_title }}</a>
-                </li>
-               
-                @endforeach
-                <div class=" w_250 p-3 ">
-                    <img src="{{ asset('uploads/website/dropdown1.png') }}" class="w-75 img-fluid">
-                </div>
-                <div class=" w_250 p-3 ">
-                    <img src="{{ asset('uploads/website/dropdown2.png') }}" class="w-75 img-fluid">
-                </div>
-                <div class=" w_250 p-3 ">
-                    <img src="{{ asset('uploads/website/amto-product.png') }}" class="w-75 img-fluid">
-                </div>
-             </ul> 
-        </div>
-        @endforeach
-    </div>
-</li>
-      
                     <li class="nav-item ml-2">
+                        <div class="header_dropdown_main d-flex">
+                            @foreach ($categories as $category)
+                            <div class="w_250 ">
+                                <a class="dropdown-item fw_700 px-1 dropdown-toggle navbar_items"
+                                    href="{{ url('/shop/' . $category->category_slug) }}">
+                                    {{ $category->category_title }}
+                                </a>
+                                <ul class="sub-category-list dropdown-menu">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <h5 class="ml-3"
+                                                style="border-bottom:1px solid black; width:75%; padding-bottom:10px;">
+                                                Categories</h5>
+                                            @foreach ($sub_categories[$category->id] as $item)
+
+                                            <li class="cate_items text-left ml-3">
+                                                <a
+                                                    href="{{ url('/shop/' . $category->category_slug . '/' . $item->sub_category_slug) }}">{{ $item->sub_category_title }}</a>
+                                            </li>
+
+                                            @endforeach
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <img src="{{ asset('uploads/website/dropdown1.png') }}"
+                                                class="w-100 img-fluid">
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <img src="{{ asset('uploads/website/dropdown2.png') }}"
+                                                class="w-100 img-fluid">
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <img src="{{ asset('uploads/website/amto-product.png') }}"
+                                                class="w-100 img-fluid">
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                            @endforeach
+                        </div>
+                    </li>
+
+                    <!-- <li class="nav-item ml-2">
                         <a class="nav-link " href="{{ url('/wishlist') }}">
                             <span class="badge badge-light">
                                 My Wish Lists
@@ -210,7 +227,7 @@
                             <i class="fa-solid fa-cart-shopping"></i> <sup class="badge badge-light" id="cartheading">
                                 {{ $cart }}</sup>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
 
             </div>
