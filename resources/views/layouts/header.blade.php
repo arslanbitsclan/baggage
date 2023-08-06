@@ -170,14 +170,14 @@
                     <li class="nav-item ml-2">
                         <div class="header_dropdown_main d-flex">
                             @foreach ($categories as $category)
-                            <div class="w_250 ">
+                            <div class="w_250  text-center">
                                 <a class="dropdown-item fw_700 px-1 dropdown-toggle navbar_items"
                                     href="{{ url('/shop/' . $category->category_slug) }}">
                                     {{ $category->category_title }}
                                 </a>
                                 <ul class="sub-category-list dropdown-menu">
                                     <div class="row">
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-3 ">
                                             <h5 class="ml-3"
                                                 style="border-bottom:1px solid black; width:75%; padding-bottom:10px;">
                                                 Categories</h5>
