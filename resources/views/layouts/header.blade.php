@@ -137,7 +137,7 @@
                     <i class="fa-solid fa-map-pin mr-1"></i>
                     <span>Stores</span>
                 </a>
-                <a>
+                <!-- <a>
                     <i class="fa-regular fa-user mx-3">
                     </i></a>
                 <a> <i class="fa-regular fa-heart mx-2"></i> <sup class="badge badge-light" id="wishlistheading">
@@ -146,7 +146,7 @@
                 <a>
                     <i class="fa-solid fa-cart-shopping mx-2"></i> <sup class="badge badge-light" id="cartheading">
                         {{ $cart }}</sup>
-                </a>
+                </a> -->
 
             </div>
         </div>
@@ -167,11 +167,11 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto align-items-center">
 
-                    <li class="nav-item ml-2">
+                    <li class="nav-item ml-auto mr-5">
                         <div class="header_dropdown_main d-flex">
                             @foreach ($categories as $category)
                             <div class="w_250  text-center">
-                                <a class="dropdown-item fw_700 px-1 dropdown-toggle navbar_items"
+                                <a class="dropdown-item fw_700 px-1  dropdown-toggle navbar_items"
                                     href="{{ url('/shop/' . $category->category_slug) }}">
                                     {{ $category->category_title }}
                                 </a>
@@ -209,8 +209,8 @@
                         </div>
                     </li>
 
-                    <!-- <li class="nav-item ml-2">
-                        <a class="nav-link " href="{{ url('/wishlist') }}">
+                    <li class="nav-item ml-1">
+                        <a class="nav-link px-0" href="{{ url('/wishlist') }}">
                             <span class="badge badge-light">
                                 My Wish Lists
                             </span>
@@ -219,15 +219,15 @@
 
                         </a>
                     </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link" href="{{ url('/cart') }}">
+                    <li class="nav-item ml-1">
+                        <a class="nav-link px-0" href="{{ url('/cart') }}">
                             <span class="badge badge-light">
                                 View Cart
                             </span>
                             <i class="fa-solid fa-cart-shopping"></i> <sup class="badge badge-light" id="cartheading">
                                 {{ $cart }}</sup>
                         </a>
-                    </li> -->
+                    </li>
                 </ul>
 
             </div>
