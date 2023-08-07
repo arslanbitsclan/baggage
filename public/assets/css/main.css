@@ -11214,7 +11214,7 @@ color: #000000;
 }
 
 .navbar_items{
-    font-size: 13px;
+    font-size: 12px;
 }
 .navbar_items .sub-category-list{
     display: flex;
@@ -11248,4 +11248,12 @@ border-bottom: 1px solid #C7C7C7 !important;
 .cate_items{
     display: flex;
     flex-direction: column;
+}
+.our_brands_list>li{
+    list-style: circle;
+    font-size: 26px;
+    font-weight: 700;
+}
+.sub_heading{
+    font-size: 20px;
 }
