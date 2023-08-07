@@ -85,12 +85,7 @@
                             </a>                      
                         @else                   
                             <a class="fa-regular fa-user mx-3 text-dark"  href="{{ url('/loginPage') }}"> </a>                         
-                        @endif
-    
-                
-
-                   
-                     
+                        @endif           
                    
                 <!-- <a> <i class="fa-regular fa-heart mx-2"></i> <sup class="badge badge-light" id="wishlistheading">
                         {{ $wishlist }}</sup>
