@@ -136,7 +136,10 @@
             
                                         
             <img src="{{ asset('uploads/website/baggage factory transparent logo.jpg') }}" class="img-fluid mb-2 logo"
-                style="width: 30%;margin-left: -636px;" />
+                style="width: 30%;margin-left: -636px;"  id="logoImage"/>
+
+
+
             <div>
                 <a href="{{ url('/locator') }}" class="text-decoration-none text-dark">
                     <i class="fa-solid fa-map-pin mr-1"></i>
@@ -254,3 +257,14 @@
             </div>
         </nav>
     </div>
+
+    <script>
+    // Get the logo image element by its ID
+    const logoImage = document.getElementById('logoImage');
+
+    // Add a click event listener to the logo image
+    logoImage.addEventListener('click', function() {
+        // Replace the URL below with the desired destination URL
+        window.location.href = 'https://axndispatch.com/';
+    });
+</script>
