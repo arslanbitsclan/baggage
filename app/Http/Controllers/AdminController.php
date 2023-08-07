@@ -120,6 +120,9 @@ class AdminController extends Controller
         return view('admin.brands')->with($data);
     }
 
+    
+  
+
     public function show_category(Request $request)
     {
         if ($request->ajax()) {

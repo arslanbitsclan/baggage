@@ -63,6 +63,45 @@ class MainController extends Controller
     }
 
 
+    public function ourbrands()
+    {
+        $wishlist = 0;
+        $cart = 0;
+        if ($this->get_cart() > 0) {
+            $cart = $this->get_cart();
+        }
+        if ($this->get_wishlist() > 0) {
+            $wishlist = $this->get_wishlist();
+        }
+        $categories = CategoriesModel::where('category_action', '=', 'Enable')->where('status', '=', 'Active')->get();
+        foreach ($categories as $category) {
+            $sub_categories[$category->id] = SubCategoriesModel::where('cat_id', '=', $category->id)->where('sub_category_action', '=', 'Enable')->where('status', '=', 'Active')->get();
+        }
+        $active = "";
+        $data = compact('active', 'categories', 'sub_categories', 'wishlist', 'cart');
+        return view('ourBrands')->with($data);
+    }
+
+    
+    public function productRange()
+    {
+        $wishlist = 0;
+        $cart = 0;
+        if ($this->get_cart() > 0) {
+            $cart = $this->get_cart();
+        }
+        if ($this->get_wishlist() > 0) {
+            $wishlist = $this->get_wishlist();
+        }
+        $categories = CategoriesModel::where('category_action', '=', 'Enable')->where('status', '=', 'Active')->get();
+        foreach ($categories as $category) {
+            $sub_categories[$category->id] = SubCategoriesModel::where('cat_id', '=', $category->id)->where('sub_category_action', '=', 'Enable')->where('status', '=', 'Active')->get();
+        }
+        $active = "";
+        $data = compact('active', 'categories', 'sub_categories', 'wishlist', 'cart');
+        return view('productRange')->with($data);
+    }
+
     public function home()
     {
         $wishlist = 0;

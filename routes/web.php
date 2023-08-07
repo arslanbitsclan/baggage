@@ -87,6 +87,10 @@ Route::group(['middleware' => 'preventBack'], function () {
     Route::get('/admin/brands', [AdminController::class, 'brands']);
     Route::post('/admin/delete-brand', [AdminController::class, 'delete_brand']);
     Route::post('/admin/add-brand', [AdminController::class, 'add_brand']);
+    
+
+
+    
     //Register User Orders
     Route::get('/admin/register-users-new-orders', [AdminController::class, 'reg_users_new_orders'])->name('Admin.Reg-users-new-orders');
     Route::post('/admin/register-users-new-orders', [AdminController::class, 'get_reg_users_new_orders_by_status'])->name('Admin.get-ru-new-orders');
@@ -188,6 +192,11 @@ Route::get('/old', [MainController::class, 'old']);
 
 Route::get('organization_chart', [MainController::class, 'organizationChart']);
 Route::get('locator', [MainController::class, 'locator']);
+Route::get('/our_brands', [MainController::class, 'ourbrands']);
+Route::get('/product_range', [MainController::class, 'productRange']);
+
+
+
 
 Route::get('/', [MainController::class, 'home']);
 Route::get('/about', [MainController::class, 'about']);
