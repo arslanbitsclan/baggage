@@ -55,7 +55,7 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
     <article class="container my-5">
         <div class="row">
             <div class="col-lg-6 p-0">
-                <img src="{{ asset('uploads/website/abut3.jpg') }}" alt="Snow" class="img-fluid w-100" style="  width: 200px;
+                <img src="{{ asset('uploads/website/324.jpg') }}" alt="Snow" class="img-fluid w-100" style="  width: 200px;
      height: -webkit-fill-available;  object-fit: cover;">
             </div>
             <div class="col-lg-6 p-0" style="background-color:#F0F0F0;">
@@ -64,12 +64,12 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
                         EXPECT INNOVATION</h1>
                     <div class="values">
                     </div>
-                    <p class="mt-3" style="font-weight: 500; ">For over a century, Samsonite has been a byword for
+                    <p class="mt-3" style="font-weight: 500; ">For over a century, Baggage Factory has been a byword for
                         exceptional luggage combining bold design with cutting-edge technology and new materials. From
                         the simple wooden trunk designed by company founder Jesse Shwayder, to modern iconic cases and
-                        bags many of which being a pioneer in the industry. In today’s mobile world, Samsonite is
+                        bags many of which being a pioneer in the industry. In today’s mobile world, Baggage Factory is
                         creating smart, trendsetting solutions for people on the go. Being it for travel, leisure or
-                        daily commuting, Samsonite caters to all with an extensive range of stylish bags, accessories
+                        daily commuting, Baggage Factory caters to all with an extensive range of stylish bags, accessories
                         and durable, lightweight luggage.</p>
                     <button class="btn btn-dark text-white rounded-0 px-4 py-2"
                         style="background-color:black !important; font-weight: 800;">DISCOVER OUR STORY</button>
@@ -86,7 +86,7 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
                 <div class="p-5">
                     <h1 style="font-weight: 700; text-transform: uppercase;">
 
-                        Samsonite in europe</h1>
+                    Baggage Factory in europe</h1>
                     <div class="values">
                     </div>
                     <p class="mt-3" style="font-weight: 500;">With production plants in Belgium and Hungary, we can
@@ -205,21 +205,21 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
                 <div class="col-lg-12">
                     <div class="container">
                         <div class="banner-img banner-big wow fadeIn animated f-none">
-                            <!-- <img src="{{ asset('/uploads/' . $content->ad) }}" alt=""> -->
-    <div class="banner-text d-md-block d-none" style="margin-left: -2%;margin-top: 9.1%;">
+                           <img src="{{ asset('/uploads/' . $content->ad) }}" alt=""> -->
+    <!-- <div class="banner-text d-md-block d-none" style="margin-left: -2%;margin-top: 9.1%;">
         <a href="@if (empty($content->category_slug) && empty($content->sub_category_slug)) {{ url('/shop') }}
                                             @elseif (!empty($content->category_slug) && empty($content->sub_category_slug))
                                                 {{ url('/shop/' . $content->category_slug) }}
                                             @elseif (!empty($content->category_slug) && !empty($content->sub_category_slug))
                                                 {{ url('/shop/' . $content->category_slug . '/' . $content->sub_category_slug) }} @endif"
             class="btn ">Learn More <i class="fi-rs-arrow-right"></i></a>
+    </div> -->
     </div>
     </div>
     </div>
     </div>
     </div>
-    </div>
-    </section> -->
+    </section> 
     @endif
 </main>
 @endsection

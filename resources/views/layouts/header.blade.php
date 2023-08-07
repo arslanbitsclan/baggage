@@ -137,16 +137,32 @@
                     <i class="fa-solid fa-map-pin mr-1"></i>
                     <span>Stores</span>
                 </a>
-                <!-- <a>
-                    <i class="fa-regular fa-user mx-3">
-                    </i></a>
-                <a> <i class="fa-regular fa-heart mx-2"></i> <sup class="badge badge-light" id="wishlistheading">
+                 
+                           @if (session()->has('customer'))
+                           <!-- <i class="fa-regular fa-user mx-3"> -->
+                            <a class="fa-regular fa-user mx-3"  href="{{ url('/my-account') }}">
+
+                                {{ session()->get('customer.f_name') }} {{ session()->get('customer.l_name') }}
+                            </a>
+                            <!-- </i> -->
+                        @else
+                          <!-- <i class="fa-regular fa-user mx-3"> -->
+                            <a class="fa-regular fa-user mx-3 text-dark"  href="{{ url('/loginPage') }}"> </a>
+                             <!-- </i> -->
+                        @endif
+    
+                
+
+                   
+                     
+                   
+                <!-- <a> <i class="fa-regular fa-heart mx-2"></i> <sup class="badge badge-light" id="wishlistheading">
                         {{ $wishlist }}</sup>
                 </a>
                 <a>
                     <i class="fa-solid fa-cart-shopping mx-2"></i> <sup class="badge badge-light" id="cartheading">
                         {{ $cart }}</sup>
-                </a> -->
+                </a>  -->
 
             </div>
         </div>
@@ -180,7 +196,7 @@
                                         <div class="col-lg-3 ">
                                             <h5 class="ml-3"
                                                 style="border-bottom:1px solid black; width:75%; padding-bottom:10px;">
-                                                Categories</h5>
+                                                BY MATERIAL</h5>
                                             @foreach ($sub_categories[$category->id] as $item)
 
                                             <li class="cate_items text-left ml-3">
