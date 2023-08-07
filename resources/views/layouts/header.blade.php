@@ -43,7 +43,9 @@
 <body>
 
     <div class="container-fluid bg_black top_navigation " style="height: 50px;">
+    <a href="{{ url('/') }}">
         <img src="{{ asset('uploads/website/welcomeimage.jpg') }}" class="top_moving_text" />
+    </a>
     </div>
 
 
@@ -130,6 +132,9 @@
                 </div>
 
             </div>
+
+            
+                                        
             <img src="{{ asset('uploads/website/baggage factory transparent logo.jpg') }}" class="img-fluid mb-2 logo"
                 style="width: 30%;margin-left: -636px;" />
             <div>
