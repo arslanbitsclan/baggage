@@ -11187,7 +11187,7 @@ color: #000000;
 .w_250:hover .sub-category-list {
     display: block;
     flex-direction: column;
-    width: 1300px;
+    width: 96vw;
 }
 .w_250:hover .sub-category-list li {
     padding: 5px 0;
@@ -11256,4 +11256,7 @@ border-bottom: 1px solid #C7C7C7 !important;
 }
 .sub_heading{
     font-size: 20px;
+}
+.dropdown-menu{
+    top:70% !important;
 }

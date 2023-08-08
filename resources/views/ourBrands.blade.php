@@ -11,13 +11,15 @@
     </div>
 
     <ul class="our_brands_list">
-        <li>EAGLE</li>
-        <li>FANTANA</li>
-        <li>PETER JAMES</li>
+        <li class="my-4">EAGLE</li>
+        <img src="{{ asset('uploads/website/431.png') }} " class=" img-fluid w-100">
+        <li class="my-4">FANTANA</li>
+        <img src="{{ asset('uploads/website/549.jpg') }} " class=" img-fluid w-100">
+        <li class="my-4">PETER JAMES</li>
     </ul>
     <div class="text-center">
 
-        <img src="{{ asset('uploads/website/ourbrand.jpg') }} " class=" img-fluid w-50">
+        <img src="{{ asset('uploads/website/ourbrand.jpg') }} " class=" img-fluid w-100">
     </div>
 </div>
 </main> @endsection
