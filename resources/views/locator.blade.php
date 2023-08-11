@@ -111,7 +111,7 @@
 
         <div class="baggage-locator-retailer">
         <img src="{{ asset('uploads/website/pinIcon.png') }}" style="width:5%;height:10%" />
-            <span>Baggage Factory Retailers
+            <span>Stores
              </span>
         </div>
         <div class="row">
