@@ -16,6 +16,12 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
         </div>
     </div>
 
+    <div>
+        <img src="{{ asset('uploads/website/history.jpg') }}" alt="no imge" class="img-fluid w-100">
+    </div>
+
+
+
     <section class="container-fluid p-0 position-relative">
         <img src="{{ asset('uploads/website/abut1.jpg') }}" alt="Snow" class="img-fluid w-100">
         <div class="top_b_text w_40 p-5">
@@ -30,6 +36,10 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
                 continuing thirst for innovation to create the kind of future we want to see.</p>
         </div>
     </section>
+
+    <div>
+        <img src="{{ asset('uploads/website/novelity.jpg') }}" alt="no imge" class="img-fluid w-100">
+    </div>
 
     <article class="container my-5">
         <div class="row">
@@ -69,7 +79,8 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
                         the simple wooden trunk designed by company founder Jesse Shwayder, to modern iconic cases and
                         bags many of which being a pioneer in the industry. In today’s mobile world, Baggage Factory is
                         creating smart, trendsetting solutions for people on the go. Being it for travel, leisure or
-                        daily commuting, Baggage Factory caters to all with an extensive range of stylish bags, accessories
+                        daily commuting, Baggage Factory caters to all with an extensive range of stylish bags,
+                        accessories
                         and durable, lightweight luggage.</p>
                     <button class="btn btn-dark text-white rounded-0 px-4 py-2"
                         style="background-color:black !important; font-weight: 800;">DISCOVER OUR STORY</button>
@@ -86,7 +97,7 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
                 <div class="p-5">
                     <h1 style="font-weight: 700; text-transform: uppercase;">
 
-                    Baggage Factory in europe</h1>
+                        Baggage Factory in europe</h1>
                     <div class="values">
                     </div>
                     <p class="mt-3" style="font-weight: 500;">With production plants in Belgium and Hungary, we can
@@ -219,7 +230,7 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
     </div>
     </div>
     </div>
-    </section> 
+    </section>
     @endif
 </main>
 @endsection
