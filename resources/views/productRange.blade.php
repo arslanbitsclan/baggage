@@ -49,7 +49,12 @@
                         bags
                         specifically designed for students of all ages. Our school bags combine ergonomic designs,
                         durability, and
-                        ample storage space to accommodate books, stationery, laptops, and other essentials.</p>
+                        ample storage space to accommodate books, stationery, laptops, and other essentials.
+                        <br>
+                        In addition to our main luggage products, we also offer a range of travel
+                        accessories to enhance your travel experience. These include Wallets, luggage tags, packing
+                        cubes, travel locks, and more.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -63,7 +68,7 @@
                     <img src="{{ asset('uploads/website/FASHION_BAGS.jpg') }} " class=" img-fluid w-75">
                 </div>
             </div>
-            <div class="col-lg-6 my-auto">
+            <div class="col-lg-6 my-auto text-center">
                 <strong class="sub_heading">Fashion Bags: </strong>
                 <p class="PR_inner_para"> Stay on-trend with our fashionable
                     handbags,
@@ -89,7 +94,7 @@
 
             <div class="col-lg-6">
                 <div class="text-center">
-                    <img src="{{ asset('uploads/website/505.png') }} " class=" img-fluid w-75">
+                    <img src="{{ asset('uploads/website/505.png') }} " class=" img-fluid w-100">
                 </div>
             </div>
 
@@ -103,19 +108,6 @@
                         designed with durable materials, comfortable straps, and specialized compartments to accommodate
                         outdoor
                         gear and equipment.</p>
-                </div>
-            </div>
-            <div class="col-lg-6 my-auto">
-                <div class="text-center">
-                    <strong class="sub_heading">Travel Accessories: </strong>
-                    <p class="PR_inner_para"> In addition to our main luggage products, we also offer a range of travel
-                        accessories to enhance your travel experience. These include Wallets, luggage tags, packing
-                        cubes, travel locks, and more.</p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-center">
-                    <img src="{{ asset('uploads/website/luggage_bag2.jpg') }} " class=" img-fluid w-75">
                 </div>
             </div>
         </article>
