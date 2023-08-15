@@ -44,7 +44,7 @@
 
             <div class="col-lg-6 my-auto">
                 <div class="text-center">
-                    <strong class="sub_heading">Our Varieties: </strong>
+                    <strong class="sub_heading">School Bags & Travel Accessories: </strong>
                     <p class="PR_inner_para">
                         We also offer a range of travel
                         accessories to enhance your travel experience. These include Wallets, luggage tags, packing

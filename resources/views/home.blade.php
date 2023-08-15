@@ -287,9 +287,6 @@
                 <img src="{{ asset('uploads/website/imgg.jpeg') }}" alt="emboss image" class="img-fluid h-75 w-100">
             </div>
             <div class="col-lg-4 p-0">
-                <!-- <video id="myVideo" width="450" height="410" controls autoplay>
-                    <source src="{{ asset('uploads/website/clip.mp4') }}" type="video/mp4">
-                </video> -->
                 <video id="myVideo" width="450" height="410" controls loop >
                 <source src="{{ asset('uploads/website/clip.mp4') }}" type="video/mp4">
                 </video>

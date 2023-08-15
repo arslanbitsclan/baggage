@@ -43,9 +43,9 @@
 <body>
 
     <div class="container-fluid bg_black top_navigation " style="height: 50px;">
-    <a href="{{ url('/') }}">
-        <img src="{{ asset('uploads/website/welcomeimage.jpg') }}" class="top_moving_text" />
-    </a>
+        <a href="{{ url('/') }}">
+            <img src="{{ asset('uploads/website/welcomeimage.jpg') }}" class="top_moving_text" />
+        </a>
     </div>
 
 
@@ -62,9 +62,9 @@
                     <span>Product Range</span>
                 </a>
             </div>
-                                    
+
             <img src="{{ asset('uploads/website/logo.png') }}" class="img-fluid mb-2 logo"
-                style="width: 21%;margin-left: -130px;"  id="logoImage"/>
+                style="width: 21%;margin-left: -130px;" id="logoImage" />
 
 
 
@@ -74,19 +74,19 @@
                     <span>Stores</span>
                 </a>
 
-                <a href="{{ url('/our_brands') }}" class="text-decoration-none text-dark"  style="margin-left: 20px;">             
-                <i class="fab fa-slack"></i>
+                <a href="{{ url('/our_brands') }}" class="text-decoration-none text-dark" style="margin-left: 20px;">
+                    <i class="fab fa-slack"></i>
                     <span>Our Brands</span>
                 </a>
-                 
-                           @if (session()->has('customer'))
-                            <a class="fa-regular fa-user mx-3"  href="{{ url('/my-account') }}">
-                                {{ session()->get('customer.f_name') }} {{ session()->get('customer.l_name') }}
-                            </a>                      
-                        @else                   
-                            <a class="fa-regular fa-user mx-3 text-dark"  href="{{ url('/loginPage') }}"> </a>                         
-                        @endif           
-                   
+
+                @if (session()->has('customer'))
+                <a class="fa-regular fa-user mx-3" href="{{ url('/my-account') }}">
+                    {{ session()->get('customer.f_name') }} {{ session()->get('customer.l_name') }}
+                </a>
+                @else
+                <a class="fa-regular fa-user mx-3 text-dark" href="{{ url('/loginPage') }}"> </a>
+                @endif
+
                 <!-- <a> <i class="fa-regular fa-heart mx-2"></i> <sup class="badge badge-light" id="wishlistheading">
                         {{ $wishlist }}</sup>
                 </a>
@@ -111,10 +111,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse " id="navbarSupportedContent" >
-                <ul class="navbar-nav ml-auto align-items-center">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent" style="
+    justify-content: space-around;">
+                <ul class="navbar-nav align-items-center">
 
-                    <li class="nav-item ml-auto mr-5">
+
+                    <li class="nav-item">
                         <div class="header_dropdown_main d-flex">
                             @foreach ($categories as $category)
                             <div class="w_250  text-center">
@@ -156,20 +158,22 @@
                         </div>
                     </li>
 
-                
-                  
 
-                <div class ="hidden-uk-dropdown">    
-                <a> <i class="fa-regular fa-heart mx-2"></i> <sup class="badge badge-light" id="wishlistheading">
-                        {{ $wishlist }}</sup>
-                </a>
-                <a>
-                    <i class="fa-solid fa-cart-shopping mx-2"></i> <sup class="badge badge-light" id="cartheading">
-                        {{ $cart }}</sup>
-                </a> 
-                </div>
 
-                <li class="nav-item ml-1">
+
+                    <div class="hidden-uk-dropdown" style="margin-left:9.3vw">
+                        <a> <i class="fa-regular fa-heart mx-2"></i> <sup class="badge badge-light"
+                                id="wishlistheading">
+                                {{ $wishlist }}</sup>
+                        </a>
+                        <a>
+                            <i class="fa-solid fa-cart-shopping mx-2"></i> <sup class="badge badge-light"
+                                id="cartheading">
+                                {{ $cart }}</sup>
+                        </a>
+                    </div>
+
+                    <li class="nav-item ml-1">
                         <a class="nav-link px-0" href="{{ url('/wishlist') }}">
                             <span class="badge badge-light">
                                 My Wish Lists
@@ -179,7 +183,7 @@
 
                         </a>
                     </li>
-                <li class="nav-item ml-1">
+                    <li class="nav-item ml-1">
                         <a class="nav-link px-0" href="{{ url('/cart') }}">
                             <span class="badge badge-light">
                                 View Cart
@@ -188,7 +192,7 @@
                                 {{ $cart }}</sup>
                         </a>
                     </li>
-               
+
                 </ul>
 
             </div>
@@ -204,4 +208,4 @@
         // Replace the URL below with the desired destination URL
         window.location.href = 'https://axndispatch.com/';
     });
-</script>
+    </script>

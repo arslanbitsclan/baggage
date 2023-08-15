@@ -28,8 +28,8 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
     <div class="text-center my-5">
         <img src="{{ asset('uploads/website/CUSTOMER_SERVICES.jpg') }}" alt="no imge" class="img-fluid w-50">
     </div>
-    <div>
-        <img src="{{ asset('uploads/website/novelity.jpg') }}" alt="no imge" class="img-fluid w-100">
+    <div class="text-center my-5">
+        <img src="{{ asset('uploads/website/novelity.jpg') }}" alt="no imge" class="img-fluid w-75">
     </div>
 
 
