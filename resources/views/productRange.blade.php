@@ -5,7 +5,7 @@
 @section('section')
 <main>
     <div class="container my-4">
-        <h4>Product Range:</h4>
+        <h4><strong>Product Range:</strong></h4>
         <p>We offer a wide range of Luggage options to cater to different travel preferences and requirements. Whether
             you're embarking on a short weekend trip or a long international journey, we have the perfect luggage to
             suit your needs. <em>Our product range includes:</em></p>
