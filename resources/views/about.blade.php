@@ -16,13 +16,24 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
         </div>
     </div>
 
+    <div class="text-center my-5">
+        <img src="{{ asset('uploads/website/history.jpg') }}" alt="no imge" class="img-fluid w-75">
+    </div>
+    <div class="text-center my-5">
+        <img src="{{ asset('uploads/website/VISION.jpg') }}" alt="no imge" class="img-fluid w-50">
+    </div>
+    <div class="text-center my-5">
+        <img src="{{ asset('uploads/website/QUALITY_ALWAYS_FIRST.jpg') }}" alt="no imge" class="img-fluid w-50">
+    </div>
+    <div class="text-center my-5">
+        <img src="{{ asset('uploads/website/CUSTOMER_SERVICES.jpg') }}" alt="no imge" class="img-fluid w-50">
+    </div>
     <div>
-        <img src="{{ asset('uploads/website/history.jpg') }}" alt="no imge" class="img-fluid w-100">
+        <img src="{{ asset('uploads/website/novelity.jpg') }}" alt="no imge" class="img-fluid w-100">
     </div>
 
 
-
-    <section class="container-fluid p-0 position-relative">
+    <!-- <section class="container-fluid p-0 position-relative">
         <img src="{{ asset('uploads/website/abut1.jpg') }}" alt="Snow" class="img-fluid w-100">
         <div class="top_b_text w_40 p-5">
             <h1 class="text-white font-weight-bolder">EXPECT<br> INNOVATION</h1>
@@ -35,13 +46,11 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
             <p class="text-white fs_13">We will ensure that our commitment to sustainability combines with our
                 continuing thirst for innovation to create the kind of future we want to see.</p>
         </div>
-    </section>
+    </section> -->
 
-    <div>
-        <img src="{{ asset('uploads/website/novelity.jpg') }}" alt="no imge" class="img-fluid w-100">
-    </div>
 
-    <article class="container my-5">
+
+    <!-- <article class="container my-5">
         <div class="row">
             <div class="col-lg-6 p-0" style="background-color:#F0F0F0;">
                 <div class="p-5">
@@ -186,7 +195,7 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
             <p class="mx-2 h4"><a style="font-weight:400; border-bottom:1px solid black; padding-bottom:20px;"
                     class="see_items">Catalogue</a></p>
         </d1>
-    </article>
+    </article> -->
 
     <!-- <section class="section-padding">
         <div class="container pt-25">

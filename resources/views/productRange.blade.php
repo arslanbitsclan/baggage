@@ -44,16 +44,16 @@
 
             <div class="col-lg-6 my-auto">
                 <div class="text-center">
-                    <strong class="sub_heading">School Bags: </strong>
-                    <p class="PR_inner_para">We offer backpacks and messenger
-                        bags
-                        specifically designed for students of all ages. Our school bags combine ergonomic designs,
-                        durability, and
-                        ample storage space to accommodate books, stationery, laptops, and other essentials.
-                        <br>
-                        In addition to our main luggage products, we also offer a range of travel
+                    <strong class="sub_heading">Our Varieties: </strong>
+                    <p class="PR_inner_para">
+                        We also offer a range of travel
                         accessories to enhance your travel experience. These include Wallets, luggage tags, packing
                         cubes, travel locks, and more.
+                        In addition
+                        We offer backpacks and messenger
+                        bags
+                        specifically designed for students of all ages. Our school bags combine ergonomic designs,
+                        durability.
                     </p>
                 </div>
             </div>
