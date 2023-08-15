@@ -44,7 +44,7 @@
 
             <div class="col-lg-6 my-auto">
                 <div class="text-center">
-                    <strong class="sub_heading">School Bags: </strong>
+                    <strong class="sub_heading">School Bags & Travel Accessories: </strong>
                     <p class="PR_inner_para">We offer backpacks and messenger
                         bags
                         specifically designed for students of all ages. Our school bags combine ergonomic designs,
