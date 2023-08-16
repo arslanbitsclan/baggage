@@ -16,20 +16,15 @@ $content = \App\Models\CMS::where('page', '=', 'about')->first();
         </div>
     </div>
 
+
     <div class="text-center my-5">
-        <img src="{{ asset('uploads/website/history.jpg') }}" alt="no imge" class="img-fluid w-75">
+        <img src="{{ asset('uploads/website/history_and_vision.jpg') }}" alt="no imge" class="img-fluid w-75">
     </div>
     <div class="text-center my-5">
-        <img src="{{ asset('uploads/website/VISION.jpg') }}" alt="no imge" class="img-fluid w-50">
+        <img src="{{ asset('uploads/website/customer.jpg') }}" alt="no imge" class="img-fluid w-75">
     </div>
     <div class="text-center my-5">
-        <img src="{{ asset('uploads/website/QUALITY_ALWAYS_FIRST.jpg') }}" alt="no imge" class="img-fluid w-50">
-    </div>
-    <div class="text-center my-5">
-        <img src="{{ asset('uploads/website/CUSTOMER_SERVICES.jpg') }}" alt="no imge" class="img-fluid w-50">
-    </div>
-    <div class="text-center my-5">
-        <img src="{{ asset('uploads/website/novelity.jpg') }}" alt="no imge" class="img-fluid w-75">
+        <img src="{{ asset('uploads/website/novelity.jpg') }}" alt="no imge" class="img-fluid w-100">
     </div>
 
 
