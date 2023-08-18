@@ -5,5 +5,5 @@
 @section('section')
 <div>
 
-    <img src="{{ asset('uploads/website/xl.jpg') }} " class=" img-fluid">
+    <img src="{{ asset('uploads/website/Company_Organizational_Chart.jpg') }} " class=" img-fluid w-100">
 </div> @endsection
