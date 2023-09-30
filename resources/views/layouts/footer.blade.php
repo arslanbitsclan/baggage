@@ -93,6 +93,7 @@
                             <li> <a href="{{ url('/shipment') }}" class="footer_navlinks">Shipment &
                                     Delivery</a>
                             </li>
+                            <li> <a href="{{ url('/warrenty') }}" class="footer_navlinks">Warrenty</a></li>
                             <li> <a href="{{ url('/contact') }}" class="footer_navlinks">Contact Us</a></li>
                         </ul>
                     </div>
