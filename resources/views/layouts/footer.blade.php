@@ -90,6 +90,9 @@
                             <li> <a href="{{ url('/privacy-policy') }}" class="footer_navlinks">Return Policy</a></li>
                             <li> <a href="{{ url('/terms&conditions') }}" class="footer_navlinks">Terms & Conditions</a>
                             </li>
+                            <li> <a href="{{ url('/shipment') }}" class="footer_navlinks">Shipment &
+                                    Delivery</a>
+                            </li>
                             <li> <a href="{{ url('/contact') }}" class="footer_navlinks">Contact Us</a></li>
                         </ul>
                     </div>
